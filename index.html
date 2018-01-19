@@ -4,19 +4,22 @@
     <meta charset="utf-8">
     <title>Marvel</title>
     <link rel='stylesheet' href='dist/style.css'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
     <header class="page-header">
-      <h1 class="page-header__content"> Creative and professional </h1>
-      <svg class="page-header__logo" height="190" width="190">
-       <circle cx="50" cy="50" r="40" fill="#ffe400" />
-     </svg>
-      <p class="page-header__text"> Use, by you or one client, in a single end product which end users are not charged for. Use, by you or one client, in a single end product which end users are not charged for. </p>
-      <button class="page-header__button"> Contact us </button>
+      <div class="page-header__container">
+        <h1 class="page-header__header"> Creative <br> and professional </h1>
+        <svg class="page-header__logo" height="190" width="190">
+         <circle cx="100" cy="100" r="90" fill="#ffe400" />
+       </svg>
+        <p class="page-header__text"> Use, by you or one client, in a single end product which end users are not charged for. Use, by you or one client, in a single end product which end users are not charged for. </p>
+        <button class="page-header__button"> Contact us </button>
+      </div>
     </header>
     <nav class="main-nav">
-      <img class="logo" src="img/logo.jpg" width="186" height="33" alt="logo-marvel">
+      <img class="logo" src="src/img/logo.jpg" width="186" height="33" alt="logo-marvel">
       <ul class="main-nav__menu">
          <li><a href="#">Home</a></li>
          <li><a href="#">Service</a></li>
@@ -75,7 +78,7 @@
       <button class="boost__purchase-button"> Purchase </button>
     </section>
     <section class="introduction">
-      <img class="logo" src="img/logo.jpg" width="186" height="33" alt="logo-marvel">
+      <img class="logo" src="src/img/logo.jpg" width="186" height="33" alt="logo-marvel">
       <h1 class="introduction__header"> Who we are </h1>
       <p class="introduction__text"> Lorem ipsum dolor sit amet, consectetuer ux adipiscing elit, sed diam nonummy nibh and euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam </p>
       <div class="links">
@@ -134,14 +137,14 @@
         <a href="#"> Photography </a>
       </div>
       <div class="images-grid">
-        <img class=images-grid__image src="img/bridge.jpg" width="480" height="307" alt="bridge">
-        <img class=images-grid__image src="img/laptop.jpg" width="480" height="307" alt="woman-with-laptop">
-        <img class=images-grid__image src="img/gothic.jpg" width="480" height="307" alt="gothic-girl">
-        <img class=images-grid__image src="img/bold.jpg" width="480" height="307" alt="bold-girl">
-        <img class=images-grid__image src="img/pilot.jpg" width="480" height="307" alt="pilot">
-        <img class=images-grid__image src="img/coffee.jpg" width="480" height="307" alt="man-with-coffee">
-        <img class=images-grid__image src="img/selfie.jpg" width="480" height="307" alt="selfie">
-        <img class=images-grid__image src="img/woman.jpg" width="480" height="307" alt="woman">
+        <img class=images-grid__image src="src/img/bridge.jpg" width="480" height="307" alt="bridge">
+        <img class=images-grid__image src="src/img/laptop.jpg" width="480" height="307" alt="woman-with-laptop">
+        <img class=images-grid__image src="src/img/gothic.jpg" width="480" height="307" alt="gothic-girl">
+        <img class=images-grid__image src="src/img/bold.jpg" width="480" height="307" alt="bold-girl">
+        <img class=images-grid__image src="src/img/pilot.jpg" width="480" height="307" alt="pilot">
+        <img class=images-grid__image src="src/img/coffee.jpg" width="480" height="307" alt="man-with-coffee">
+        <img class=images-grid__image src="src/img/selfie.jpg" width="480" height="307" alt="selfie">
+        <img class=images-grid__image src="src/img/woman.jpg" width="480" height="307" alt="woman">
       </div>
     </section>
     <section class="service">
@@ -228,17 +231,17 @@
       <h2 class="team__header"> Meet our team </h2>
       <div class="team__members-container">
         <div class="team__member">
-          <img class="team__photo" src="img/robert.jpg" width="358" height="410" alt="robert willsom">
+          <img class="team__photo" src="src/img/robert.jpg" width="358" height="410" alt="robert willsom">
           <p class="team__name"> Robert Willsom </p>
           <p class="team__title"> Web Developer </p>
         </div>
         <div class="team__member">
-          <img class="team__photo" src="img/guy.jpg" width="358" height="410" alt="robert willsom">
+          <img class="team__photo" src="src/img/guy.jpg" width="358" height="410" alt="robert willsom">
           <p class="team__name"> Robert James </p>
           <p class="team__title"> Web Developer </p>
         </div>
         <div class="team__member">
-          <img class="team__photo" src="img/girl.jpg" width="358" height="410" alt="robert willsom">
+          <img class="team__photo" src="src/img/girl.jpg" width="358" height="410" alt="robert willsom">
           <p class="team__name"> Alisson Willsom </p>
           <p class="team__title"> Web Developer </p>
         </div>
@@ -255,25 +258,25 @@
     <section class="news">
       <h2 class="news__header"> Recent blog post </h2>
       <div class="news__post">
-        <img class="news__photo" src="img/blog-image.jpg" width="260" height="190" alt="image">
+        <img class="news__photo" src="src/img/blog-image.jpg" width="260" height="190" alt="image">
         <h4 class="news__subheader"> Single Image post </h2>
         <p class="news__text"> Lorem Ipsum is simply dummy text of the rinting and typesette industry lorem Ipsum has. </p>
         <a class="news__read-more" href="#"> Read more </a>
       </div>
       <div class="news__post">
-        <img class="news__photo" src="img/blog-image.jpg" width="260" height="190" alt="image">
+        <img class="news__photo" src="src/img/blog-image.jpg" width="260" height="190" alt="image">
         <h4 class="news__subheader">  Gallery Image post </h2>
         <p class="news__text"> Lorem Ipsum is simply dummy text of the rinting and typesette industry lorem Ipsum has. </p>
         <a class="news__read-more" href="#"> Read more </a>
       </div>
       <div class="news__post">
-        <img class="news__photo" src="img/blog-image.jpg" width="260" height="190" alt="image">
+        <img class="news__photo" src="src/img/blog-image.jpg" width="260" height="190" alt="image">
         <h4 class="news__subheader"> Latest video post </h2>
         <p class="news__text"> Lorem Ipsum is simply dummy text of the rinting and typesette industry lorem Ipsum has. </p>
         <a class="news__read-more" href="#"> Read more </a>
       </div>
       <div class="news__post">
-        <img class="news__photo" src="img/blog-image.jpg" width="260" height="190" alt="image">
+        <img class="news__photo" src="src/img/blog-image.jpg" width="260" height="190" alt="image">
         <h4 class="news__subheader"> Single Image post </h2>
         <p class="news__text"> Lorem Ipsum is simply dummy text of the rinting and typesette industry lorem Ipsum has. </p>
         <a class="news__read-more" href="#"> Read more </a>
