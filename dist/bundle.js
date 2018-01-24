@@ -533,6 +533,27 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__scss_base_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__scss_base_scss__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__scss_header_scss__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__scss_header_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__scss_header_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__scss_main_nav_scss__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__scss_main_nav_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__scss_main_nav_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__scss_about_scss__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__scss_about_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__scss_about_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__scss_main_content_scss__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__scss_main_content_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__scss_main_content_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__scss_boost_scss__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__scss_boost_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__scss_boost_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__scss_introduction_scss__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__scss_introduction_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9__scss_introduction_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__scss_features_scss__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__scss_features_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10__scss_features_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__scss_portfolio_scss__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__scss_portfolio_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11__scss_portfolio_scss__);
+
+
+
+
+
+
+
 
 
 
@@ -3631,8 +3652,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../node_modules/css-loader/index.js?url=false!../../node_modules/resolve-url-loader/index.js!../../node_modules/sass-loader/lib/loader.js?sourceMap!./base.scss", function() {
-			var newContent = require("!!../../node_modules/css-loader/index.js?url=false!../../node_modules/resolve-url-loader/index.js!../../node_modules/sass-loader/lib/loader.js?sourceMap!./base.scss");
+		module.hot.accept("!!../../node_modules/css-loader/index.js?url=false!../../node_modules/resolve-url-loader/index.js!../../node_modules/sass-loader/lib/loader.js!./base.scss", function() {
+			var newContent = require("!!../../node_modules/css-loader/index.js?url=false!../../node_modules/resolve-url-loader/index.js!../../node_modules/sass-loader/lib/loader.js!./base.scss");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -3650,7 +3671,7 @@ exports = module.exports = __webpack_require__(0)(false);
 
 
 // module
-exports.push([module.i, "body {\n  min-width: 320px;\n  margin: 0 auto;\n}", ""]);
+exports.push([module.i, "@font-face {\n  font-family: \"Montserrat\";\n  font-style: normal;\n  src: url(\"../Marvel/fonts/montserrat.woff\") format(\"woff\"), url(\"../Marvel/fonts/montserrat.woff2\") format(\"woff2\");\n}\n\n@font-face {\n  font-family: \"Montserrat\";\n  font-style: normal;\n  font-weight: bold;\n  src: url(\"../Marvel/fonts/montserrat-bold.woff\") format(\"woff\"), url(\"../Marvel/fonts/montserrat-bold.woff2\") format(\"woff2\");\n}\n\n@font-face {\n  font-family: \"Lato\";\n  font-style: normal;\n  src: url(\"../Marvel/fonts/lato-Regular.woff2\") format(\"woff2\");\n}\n\n@font-face {\n  font-family: \"Muli\";\n  font-style: normal;\n  src: url(\"../Marvel/fonts/muli-regular.woff2\") format(\"woff2\"), url(\"../Marvel/fonts/muli-regular.woff\") format(\"woff\");\n}\n\n@font-face {\n  font-family: \"Muli\";\n  font-style: normal;\n  font-weight: 600;\n  src: url(\"../Marvel/fonts/muli-600.woff2\") format(\"woff2\"), url(\"../Marvel/fonts/muli-600.woff\") format(\"woff\");\n}\n\nbody {\n  max-width: 1920px;\n  margin: 0 auto;\n  font-family: \"Montserrat\";\n}", ""]);
 
 // exports
 
@@ -3771,8 +3792,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../node_modules/css-loader/index.js?url=false!../../node_modules/resolve-url-loader/index.js!../../node_modules/sass-loader/lib/loader.js?sourceMap!./header.scss", function() {
-			var newContent = require("!!../../node_modules/css-loader/index.js?url=false!../../node_modules/resolve-url-loader/index.js!../../node_modules/sass-loader/lib/loader.js?sourceMap!./header.scss");
+		module.hot.accept("!!../../node_modules/css-loader/index.js?url=false!../../node_modules/resolve-url-loader/index.js!../../node_modules/sass-loader/lib/loader.js!./header.scss", function() {
+			var newContent = require("!!../../node_modules/css-loader/index.js?url=false!../../node_modules/resolve-url-loader/index.js!../../node_modules/sass-loader/lib/loader.js!./header.scss");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -3790,7 +3811,322 @@ exports = module.exports = __webpack_require__(0)(false);
 
 
 // module
-exports.push([module.i, ".page-header {\n  background-color: #fcfcfc;\n  font-family: 'Montserrat', sans-serif;\n  position: relative;\n  background-position: center;\n}\n\n.page-header__header {\n  font-size: 60px;\n  text-transform: uppercase;\n  padding-top: 500px;\n  color: #444444;\n  z-index: 100;\n  position: relative;\n}\n\n.page-header__container {\n  padding-left: 15%;\n  background-image: url(\"./../img/background.jpg\");\n  background-repeat: no-repeat;\n  background-position: 100% 30%;\n  background-size: contain;\n}\n\n.page-header__text {\n  font-size: 13px;\n}\n\n.page-header__logo {\n  position: absolute;\n  top: 480px;\n  z-index: 2;\n}\n\n.page-header__button {\n  text-decoration: none;\n  border: 1px solid #444444;\n  width: 180px;\n  padding-top: 20px;\n  padding-bottom: 20px;\n  text-transform: uppercase;\n  background-color: transparent;\n  font-family: 'Montserrat';\n  font-size: 16px;\n}", ""]);
+exports.push([module.i, ".page-header {\n  font-family: 'Montserrat', sans-serif;\n  position: relative;\n  background-position: center;\n}\n\n.page-header__header {\n  font-size: 60px;\n  margin-top: 0;\n  text-transform: uppercase;\n  padding-top: 412px;\n  color: #444444;\n  z-index: 100;\n  position: relative;\n}\n\n.page-header__container {\n  padding-left: 20%;\n  padding-right: 20%;\n  background-image: url(\"../Marvel/src/img/background.jpg\");\n  background-repeat: no-repeat;\n  background-position: 115% 30%;\n  background-size: 58%;\n}\n\n.page-header__text {\n  font-size: 14px;\n  padding-right: 40%;\n  font-family: \"Lato\";\n  line-height: 24px;\n}\n\n.page-header__logo {\n  position: absolute;\n  top: 397px;\n  z-index: 2;\n}\n\n.page-header__button {\n  text-decoration: none;\n  border: 1px solid #444444;\n  width: 180px;\n  margin-bottom: 318px;\n  padding-top: 20px;\n  padding-bottom: 20px;\n  text-transform: uppercase;\n  background-color: transparent;\n  font-family: \"Montserrat\";\n  font-size: 16px;\n  margin-top: 10px;\n}", ""]);
+
+// exports
+
+
+/***/ }),
+/* 11 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(12);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../node_modules/css-loader/index.js?url=false!../../node_modules/resolve-url-loader/index.js!../../node_modules/sass-loader/lib/loader.js!./main-nav.scss", function() {
+			var newContent = require("!!../../node_modules/css-loader/index.js?url=false!../../node_modules/resolve-url-loader/index.js!../../node_modules/sass-loader/lib/loader.js!./main-nav.scss");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 12 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(false);
+// imports
+
+
+// module
+exports.push([module.i, ".main-nav {\n  background-color: #2a2a2a;\n}\n\n.main-nav__container {\n  padding-left: 20%;\n  padding-right: 20%;\n  display: flex;\n  padding-top: 20px;\n  padding-bottom: 20px;\n}\n\n.main-nav__menu {\n  display: flex;\n  list-style: none;\n  justify-content: space-between;\n  padding-left: 140px;\n}\n\n.main-nav__menu a {\n  text-decoration: none;\n  text-transform: uppercase;\n  color: #ffffff;\n  padding-right: 60px;\n}\n\n.main-nav__logo {\n  margin-top: 10px;\n}", ""]);
+
+// exports
+
+
+/***/ }),
+/* 13 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(14);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../node_modules/css-loader/index.js?url=false!../../node_modules/resolve-url-loader/index.js!../../node_modules/sass-loader/lib/loader.js!./about.scss", function() {
+			var newContent = require("!!../../node_modules/css-loader/index.js?url=false!../../node_modules/resolve-url-loader/index.js!../../node_modules/sass-loader/lib/loader.js!./about.scss");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 14 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(false);
+// imports
+
+
+// module
+exports.push([module.i, ".about__header {\n  font-size: 36px;\n  margin: 0;\n  padding-top: 130px;\n  text-align: center;\n  font-weight: bold;\n  text-transform: uppercase;\n  background-image: url(\"../Marvel/src/img/about.svg\");\n  background-repeat: no-repeat;\n  background-position: 50% 93%;\n}\n\n.about {\n  background-image: url(\"../Marvel/src/img/circle.svg\");\n  background-repeat: no-repeat;\n  background-position: 0% 37%;\n  background-size: 30%;\n}\n\n.about__text {\n  font-size: 16px;\n  text-align: center;\n  font-family: \"Muli\";\n  color: #757575;\n}\n\n.about__links-container {\n  display: flex;\n  justify-content: center;\n  padding-top: 75px;\n  padding-bottom: 80px;\n}\n\n.about__links {\n  width: 223px;\n  text-align: center;\n  padding-top: 25px;\n  padding-bottom: 25px;\n  text-decoration: none;\n  display: block;\n}\n\n.about__links--more-info {\n  background-color: #000000;\n  color: #ffe400;\n  margin-right: 30px;\n}\n\n.about__links--join {\n  background-color: #ffe400;\n  color: #000000;\n}\n\n.about__features {\n  display: flex;\n  justify-content: space-between;\n}\n\n.about__feature {\n  width: 30%;\n  text-align: center;\n  font-size: 24px;\n  font-weight: bold;\n  color: #ffffff;\n  background-repeat: no-repeat;\n  margin-top: 0;\n  margin-right: 5%;\n}\n\n.about__feature--design {\n  background-image: url(\"../Marvel/src/img/star.png\");\n  padding-top: 253px;\n  padding-bottom: 127px;\n}\n\n.about__feature--security {\n  background-image: url(\"../Marvel/src/img/lock.png\");\n  padding-top: 250px;\n  padding-bottom: 128px;\n  margin-right: 0;\n}\n\n.about__feature--design,\n.about__feature--security {\n  background-color: #212121;\n  background-position: 50% 30%;\n  margin-bottom: 0;\n}\n\n.about__feature--features {\n  background-color: #ffe400;\n  background-image: url(\"../Marvel/src/img/globe.png\");\n  padding-top: 200px;\n  padding-bottom: 70px;\n  background-position: 50% 20%;\n}\n\n.about__feature--features span {\n  font-family: \"Muli\";\n  font-size: 16px;\n  padding-left: 10px;\n  padding-right: 10px;\n  display: block;\n}\n\n.about__container {\n  padding-left: 390px;\n  padding-right: 390px;\n}\n\n.about__numbers-header {\n  font-size: 30px;\n  color: #444444;\n  font-weight: bold;\n  text-align: center;\n  text-transform: uppercase;\n  padding-top: 178px;\n}\n\n.about__numbers {\n  display: flex;\n  justify-content: space-around;\n}\n\n.about__number {\n  color: #444444;\n  padding-top: 120px;\n  padding-bottom: 145px;\n}\n\n.about__number p {\n  font-size: 46px;\n  font-weight: bold;\n  margin: 0;\n}\n\n.about__number span {\n  font-size: 13px;\n  font-family: \"Muli\";\n  font-weight: bold;\n}", ""]);
+
+// exports
+
+
+/***/ }),
+/* 15 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(16);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../node_modules/css-loader/index.js?url=false!../../node_modules/resolve-url-loader/index.js!../../node_modules/sass-loader/lib/loader.js!./main-content.scss", function() {
+			var newContent = require("!!../../node_modules/css-loader/index.js?url=false!../../node_modules/resolve-url-loader/index.js!../../node_modules/sass-loader/lib/loader.js!./main-content.scss");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 16 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/***/ }),
+/* 17 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(18);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../node_modules/css-loader/index.js?url=false!../../node_modules/resolve-url-loader/index.js!../../node_modules/sass-loader/lib/loader.js!./boost.scss", function() {
+			var newContent = require("!!../../node_modules/css-loader/index.js?url=false!../../node_modules/resolve-url-loader/index.js!../../node_modules/sass-loader/lib/loader.js!./boost.scss");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 18 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(false);
+// imports
+
+
+// module
+exports.push([module.i, ".boost__container {\n  padding-left: 390px;\n  padding-right: 390px;\n  font-size: 16px;\n  color: #757575;\n  background-color: #fafafa;\n  padding-bottom: 115px;\n  background-image: url(\"../Marvel/src/img/man.png\"), url(\"../Marvel/src/img/lamp.png\");\n  background-repeat: no-repeat;\n  background-position: 84% 35%, 4% 0%;\n  background-size: 30%, 10%;\n}\n\n.boost__header {\n  font-size: 26px;\n  color: #444444;\n  background-image: url(\"../Marvel/src/img/resp.svg\");\n  background-repeat: no-repeat;\n  background-position: 0% 91%;\n  text-transform: uppercase;\n  padding-top: 119px;\n  margin: 0;\n}\n\n.boost__text {\n  font-family: \"Muli\";\n  padding-right: 37%;\n  font-weight: 600;\n  padding-bottom: 33px;\n  margin-bottom: 0;\n  padding-top: 23px;\n}\n\n.boost__features {\n  list-style: none;\n  padding-left: 25px;\n}\n\n.boost__features li {\n  position: relative;\n  margin-bottom: 23px;\n}\n\n.boost__features li::before {\n  content: \"\";\n  background-image: url(\"../Marvel/src/img/star-list.svg\");\n  background-repeat: no-repeat;\n  position: absolute;\n  left: -24px;\n  bottom: -2px;\n  width: 16px;\n  height: 20px;\n}\n\n.boost__purchase-button {\n  border: none;\n  background-color: #ffe400;\n  text-transform: uppercase;\n  font-size: 13px;\n  font-family: \"Montserrat\";\n  display: block;\n  width: 125px;\n  text-align: center;\n  padding-top: 15px;\n  padding-bottom: 15px;\n  margin-top: 35px;\n  cursor: pointer;\n}", ""]);
+
+// exports
+
+
+/***/ }),
+/* 19 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(20);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../node_modules/css-loader/index.js?url=false!../../node_modules/resolve-url-loader/index.js!../../node_modules/sass-loader/lib/loader.js!./introduction.scss", function() {
+			var newContent = require("!!../../node_modules/css-loader/index.js?url=false!../../node_modules/resolve-url-loader/index.js!../../node_modules/sass-loader/lib/loader.js!./introduction.scss");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 20 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(false);
+// imports
+
+
+// module
+exports.push([module.i, ".introduction__container {\n  background: url(\"../Marvel/src/img/background-intro.jpg\") no-repeat center 10%;\n  width: 100%;\n  padding-top: 165px;\n  padding-bottom: 132px;\n  text-align: center;\n  position: relative;\n}\n\n.introduction__container:before {\n  content: \"\";\n  background: url(\"../Marvel/src/img/circ.svg\") no-repeat center 0%;\n  position: absolute;\n  left: 58%;\n  top: 8%;\n  width: 570px;\n  height: 570px;\n}\n\n.introduction__header {\n  font-size: 44px;\n  text-transform: uppercase;\n  color: #fdfdfd;\n  margin-top: 0;\n  padding-top: 68px;\n}\n\n.introduction__text {\n  color: #fdfdfd;\n  padding-left: 29%;\n  padding-right: 29%;\n  padding-bottom: 69px;\n  margin: 0;\n  font-family: \"Muli\", sans-serif;\n  font-size: 16px;\n  line-height: 26px;\n}\n\n.introduction__link {\n  text-decoration: none;\n  width: 225px;\n  text-align: center;\n  padding-top: 25px;\n  padding-bottom: 25px;\n  font-size: 18px;\n  display: block;\n}\n\n.introduction__link--more-info {\n  border: 1px solid #ffffff;\n  color: #ffffff;\n  margin-right: 30px;\n}\n\n.introduction__link--join {\n  background-color: #ffe400;\n  color: #000000;\n}\n\n.introduction__links {\n  display: flex;\n  justify-content: center;\n}", ""]);
+
+// exports
+
+
+/***/ }),
+/* 21 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(22);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../node_modules/css-loader/index.js?url=false!../../node_modules/resolve-url-loader/index.js!../../node_modules/sass-loader/lib/loader.js!./features.scss", function() {
+			var newContent = require("!!../../node_modules/css-loader/index.js?url=false!../../node_modules/resolve-url-loader/index.js!../../node_modules/sass-loader/lib/loader.js!./features.scss");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 22 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(false);
+// imports
+
+
+// module
+exports.push([module.i, ".features__container {\n  padding-bottom: 168px;\n  padding-left: 25%;\n  padding-right: 20%;\n}\n\n.features__header {\n  padding-top: 172px;\n  margin: 0;\n  font-size: 32px;\n  text-transform: uppercase;\n  text-align: center;\n  font-weight: normal;\n  background-image: url(\"../Marvel/src/img/features.svg\");\n  background-repeat: no-repeat;\n  background-position: 48% 96%;\n}\n\n.features__grid {\n  padding-top: 130px;\n  display: grid;\n  grid-template-columns: auto auto auto;\n  grid-gap: 20px 113px;\n}\n\n.feature__text {\n  font-size: 18px;\n  font-weight: bold;\n  text-transform: uppercase;\n}\n\n.feature__description {\n  font-family: \"Muli\", Arial, sans-serif;\n  font-size: 16px;\n  line-height: 26px;\n  color: #757575;\n}\n\n.feautures__feature {\n  position: relative;\n}\n\n.feautures__feature:before {\n  content: \"\";\n  background-repeat: no-repeat;\n  position: absolute;\n  left: -88px;\n  top: 14px;\n  width: 68px;\n  height: 68px;\n}\n\n.feautures__feature--security:before {\n  background-image: url(\"../Marvel/src/img/lock-b.svg\");\n}\n\n.feautures__feature--ideas:before {\n  background-image: url(\"../Marvel/src/img/idea.svg\");\n}\n\n.feautures__feature--admin:before {\n  background-image: url(\"../Marvel/src/img/admin.svg\");\n}\n\n.feautures__feature--resolution:before {\n  background-image: url(\"../Marvel/src/img/theme.svg\");\n}\n\n.feautures__feature--interface:before {\n  background-image: url(\"../Marvel/src/img/interface.svg\");\n}\n\n.feautures__feature--builder:before {\n  background-image: url(\"../Marvel/src/img/builder.svg\");\n}\n\n.feautures__feature--responsive:before {\n  background-image: url(\"../Marvel/src/img/responsive.svg\");\n}\n\n.feautures__feature--content:before {\n  background-image: url(\"../Marvel/src/img/blocks.svg\");\n}\n\n.feautures__feature--design:before {\n  background-image: url(\"../Marvel/src/img/design.svg\");\n}", ""]);
+
+// exports
+
+
+/***/ }),
+/* 23 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(24);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../node_modules/css-loader/index.js?url=false!../../node_modules/resolve-url-loader/index.js!../../node_modules/sass-loader/lib/loader.js!./portfolio.scss", function() {
+			var newContent = require("!!../../node_modules/css-loader/index.js?url=false!../../node_modules/resolve-url-loader/index.js!../../node_modules/sass-loader/lib/loader.js!./portfolio.scss");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 24 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(false);
+// imports
+
+
+// module
+exports.push([module.i, ".portfolio__header-container {\n  background-color: #ffe400;\n}\n\n.portfolio__header {\n  font-size: 30px;\n  font-weight: bold;\n  text-transform: uppercase;\n}", ""]);
 
 // exports
 

@@ -1,4 +1,32 @@
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  src: url("../Marvel/fonts/montserrat.woff") format("woff"), url("../Marvel/fonts/montserrat.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../Marvel/fonts/montserrat-bold.woff") format("woff"), url("../Marvel/fonts/montserrat-bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  src: url("../Marvel/fonts/lato-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Muli";
+  font-style: normal;
+  src: url("../Marvel/fonts/muli-regular.woff2") format("woff2"), url("../Marvel/fonts/muli-regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Muli";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../Marvel/fonts/muli-600.woff2") format("woff2"), url("../Marvel/fonts/muli-600.woff") format("woff");
+}
 body {
-  min-width: 320px;
+  max-width: 1920px;
   margin: 0 auto;
+  font-family: "Montserrat";
 }

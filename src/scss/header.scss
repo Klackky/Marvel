@@ -1,40 +1,46 @@
 .page-header {
-  background-color: #fcfcfc;
   font-family: 'Montserrat', sans-serif;
   position:relative;
   background-position: center;
 }
 .page-header__header {
   font-size: 60px;
+  margin-top: 0;
   text-transform: uppercase;
-  padding-top: 500px;
+  padding-top: 412px;
   color:#444444;
   z-index:100;
   position: relative;
 }
 .page-header__container {
-  padding-left:15%;
+  padding-left:20%;
+  padding-right: 20%;
   background-image: url("../Marvel/src/img/background.jpg");
   background-repeat: no-repeat;
-  background-position: 100% 30%;
-  background-size: contain;
+  background-position: 115% 30%;
+  background-size: 58%;
 }
 .page-header__text {
-  font-size:13px;
+  font-size: 14px;
+  padding-right: 40%;
+  font-family: "Lato";
+  line-height: 24px;
 }
 .page-header__logo {
   position: absolute;
-  top: 480px;
+  top: 397px;
   z-index: 2;
 }
 .page-header__button {
   text-decoration: none;
   border: 1px solid #444444;
   width: 180px;
+  margin-bottom: 318px;
   padding-top: 20px;
   padding-bottom: 20px;
   text-transform: uppercase;
   background-color: transparent;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 16px;
+  margin-top: 10px;
 }

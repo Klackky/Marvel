@@ -1,0 +1,56 @@
+.introduction__container {
+  background: url("../Marvel/src/img/background-intro.jpg") no-repeat center 10%;
+  width: 100%;
+  padding-top: 165px;
+  padding-bottom: 132px;
+  text-align: center;
+  position: relative;
+  &:before {
+    content: "";
+    background: url("../Marvel/src/img/circ.svg") no-repeat center 0%;
+    position: absolute;
+    left: 58%;
+    top: 8%;
+    width: 570px;
+    height: 570px;
+  }
+}
+.introduction__header {
+  font-size: 44px;
+  text-transform: uppercase;
+  color: #fdfdfd;
+  margin-top: 0;
+  padding-top: 68px;
+}
+.introduction__text {
+  color: #fdfdfd;
+  padding-left: 29%;
+  padding-right: 29%;
+  padding-bottom: 69px;
+  margin: 0;
+  font-family: "Muli", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+}
+.introduction__link {
+  text-decoration: none;
+  width: 225px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 18px;
+  display: block;
+}
+.introduction__link--more-info {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  margin-right: 30px;
+}
+.introduction__link--join {
+  background-color: #ffe400;
+  color: #000000;
+}
+.introduction__links {
+  display: flex;
+  justify-content: center;
+}

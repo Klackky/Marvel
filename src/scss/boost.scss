@@ -1,0 +1,62 @@
+.boost__container {
+  padding-left: 390px;
+  padding-right: 390px;
+  font-size: 16px;
+  color: #757575;
+  background-color: #fafafa;
+  padding-bottom: 115px;
+  background-image: url("../Marvel/src/img/man.png"), url("../Marvel/src/img/lamp.png") ;
+  background-repeat: no-repeat;
+  background-position: 84% 35%, 4% 0%;
+  background-size: 30%, 10%;
+}
+.boost__header {
+  font-size: 26px;
+  color: #444444;
+  background-image: url("../Marvel/src/img/resp.svg");
+  background-repeat: no-repeat;
+  background-position: 0% 91%;
+  text-transform: uppercase;
+  padding-top: 119px;
+  margin: 0;
+}
+.boost__text {
+  font-family: "Muli";
+  padding-right: 37%;
+  font-weight: 600;
+  padding-bottom: 33px;
+  margin-bottom: 0;
+  padding-top: 23px;
+}
+.boost__features {
+  list-style: none;
+  padding-left: 25px;
+  li {
+    position: relative;
+    margin-bottom: 23px;
+    &::before {
+      content: "";
+      background-image: url("../Marvel/src/img/star-list.svg");
+      background-repeat: no-repeat;
+      position: absolute;
+      left: -24px;
+      bottom: -2px;
+      width: 16px;
+      height: 20px;
+    }
+  }
+}
+.boost__purchase-button {
+  border: none;
+  background-color: #ffe400;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: "Montserrat";
+  display: block;
+  width: 125px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 35px;
+  cursor: pointer;
+}

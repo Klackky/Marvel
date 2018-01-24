@@ -1,0 +1,25 @@
+.main-nav {
+  background-color: #2a2a2a;
+}
+.main-nav__container {
+  padding-left: 20%;
+  padding-right: 20%;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.main-nav__menu {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding-left: 140px;
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#ffffff;
+    padding-right: 60px;
+  }
+}
+.main-nav__logo {
+  margin-top: 10px;
+}

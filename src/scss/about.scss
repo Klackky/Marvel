@@ -1,0 +1,122 @@
+.about__header {
+  font-size: 36px;
+  margin: 0;
+  padding-top: 130px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-image: url("../Marvel/src/img/about.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 93%;
+}
+.about {
+  background-image: url("../Marvel/src/img/circle.svg");
+  background-repeat: no-repeat;
+  background-position: 0% 37%;
+  background-size: 30%;
+}
+.about__text {
+  font-size: 16px;
+  text-align: center;
+  font-family: "Muli";
+  color: #757575;
+}
+.about__links-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 75px;
+  padding-bottom: 80px;
+}
+.about__links {
+  width: 223px;
+  text-align: center;
+  padding-top:25px;
+  padding-bottom: 25px;
+  text-decoration: none;
+  display: block;
+}
+.about__links--more-info {
+  background-color: #000000;
+  color: #ffe400;
+  margin-right: 30px;
+}
+.about__links--join {
+  background-color: #ffe400;
+  color: #000000;
+}
+.about__features {
+  display: flex;
+  justify-content: space-between
+}
+.about__feature {
+  width: 30%;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  background-repeat: no-repeat;
+  margin-top: 0;
+  margin-right: 5%;
+}
+.about__feature--design {
+  background-image: url("../Marvel/src/img/star.png");
+  padding-top: 253px;
+  padding-bottom: 127px;
+}
+.about__feature--security {
+  background-image: url("../Marvel/src/img/lock.png");
+  padding-top: 250px;
+  padding-bottom: 128px;
+  margin-right: 0;
+}
+.about__feature--design,
+.about__feature--security {
+  background-color: #212121;
+  background-position: 50% 30%;
+  margin-bottom: 0;
+}
+.about__feature--features {
+  background-color: #ffe400;
+  background-image: url("../Marvel/src/img/globe.png");
+  padding-top: 200px;
+  padding-bottom: 70px;
+  background-position: 50% 20%;
+  span {
+    font-family: "Muli";
+    font-size:  16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: block;
+  }
+}
+.about__container {
+  padding-left: 390px;
+  padding-right: 390px;
+}
+.about__numbers-header {
+  font-size: 30px;
+  color: #444444;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 178px;
+}
+.about__numbers {
+  display: flex;
+  justify-content: space-around;
+}
+.about__number {
+  color: #444444;
+  padding-top: 120px;
+  padding-bottom: 145px;
+  p {
+    font-size: 46px;
+    font-weight: bold;
+    margin: 0;
+  }
+  span {
+    font-size: 13px;
+    font-family: "Muli";
+    font-weight: bold;
+  }
+}
