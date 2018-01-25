@@ -5,4 +5,47 @@
   font-size: 30px;
   font-weight: bold;
   text-transform: uppercase;
+  padding-top: 140px;
+  padding-bottom: 70px;
+  text-align: center;
+  margin-bottom: 0;
+  background-image: url("../Marvel/src/img/work.svg");
+  background-repeat: no-repeat;
+  background-position: center 58%;
+}
+.portfolio__menu {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 58px;
+  a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-size: 13px;
+    color: #000000;
+    border: 1px solid #000000;
+    margin-right: 11px;
+    &:first-child {
+      background-color: #000000;
+      background-image: url("../Marvel/src/img/burger.svg");
+      background-repeat: no-repeat;
+      width: 50px;
+      box-sizing: border-box;
+      background-position: 50%;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+.portfolio__images-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.portfolio__image {
+  width: 100%;
 }

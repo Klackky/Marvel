@@ -10,3 +10,6 @@ import './scss/boost.scss';
 import './scss/introduction.scss';
 import './scss/features.scss';
 import './scss/portfolio.scss';
+import './scss/service.scss';
+import './scss/pricing.scss';
+import './scss/_variables.scss';

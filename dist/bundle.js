@@ -547,6 +547,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__scss_features_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10__scss_features_scss__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__scss_portfolio_scss__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__scss_portfolio_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11__scss_portfolio_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__scss_service_scss__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__scss_service_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12__scss_service_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__scss_pricing_scss__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__scss_pricing_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13__scss_pricing_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__scss_variables_scss__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__scss_variables_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14__scss_variables_scss__);
+
+
+
 
 
 
@@ -3671,7 +3680,7 @@ exports = module.exports = __webpack_require__(0)(false);
 
 
 // module
-exports.push([module.i, "@font-face {\n  font-family: \"Montserrat\";\n  font-style: normal;\n  src: url(\"../Marvel/fonts/montserrat.woff\") format(\"woff\"), url(\"../Marvel/fonts/montserrat.woff2\") format(\"woff2\");\n}\n\n@font-face {\n  font-family: \"Montserrat\";\n  font-style: normal;\n  font-weight: bold;\n  src: url(\"../Marvel/fonts/montserrat-bold.woff\") format(\"woff\"), url(\"../Marvel/fonts/montserrat-bold.woff2\") format(\"woff2\");\n}\n\n@font-face {\n  font-family: \"Lato\";\n  font-style: normal;\n  src: url(\"../Marvel/fonts/lato-Regular.woff2\") format(\"woff2\");\n}\n\n@font-face {\n  font-family: \"Muli\";\n  font-style: normal;\n  src: url(\"../Marvel/fonts/muli-regular.woff2\") format(\"woff2\"), url(\"../Marvel/fonts/muli-regular.woff\") format(\"woff\");\n}\n\n@font-face {\n  font-family: \"Muli\";\n  font-style: normal;\n  font-weight: 600;\n  src: url(\"../Marvel/fonts/muli-600.woff2\") format(\"woff2\"), url(\"../Marvel/fonts/muli-600.woff\") format(\"woff\");\n}\n\nbody {\n  max-width: 1920px;\n  margin: 0 auto;\n  font-family: \"Montserrat\";\n}", ""]);
+exports.push([module.i, "@font-face {\n  font-family: \"Montserrat\";\n  font-style: normal;\n  src: url(\"../Marvel/fonts/montserrat.woff\") format(\"woff\"), url(\"../Marvel/fonts/montserrat.woff2\") format(\"woff2\");\n}\n\n@font-face {\n  font-family: \"Montserrat\";\n  font-style: normal;\n  font-weight: bold;\n  src: url(\"../Marvel/fonts/montserrat-bold.woff\") format(\"woff\"), url(\"../Marvel/fonts/montserrat-bold.woff2\") format(\"woff2\");\n}\n\n@font-face {\n  font-family: \"Lato\";\n  font-style: normal;\n  src: url(\"../Marvel/fonts/lato-Regular.woff2\") format(\"woff2\");\n}\n\n@font-face {\n  font-family: \"Muli\";\n  font-style: normal;\n  src: url(\"../Marvel/fonts/muli-regular.woff2\") format(\"woff2\"), url(\"../Marvel/fonts/muli-regular.woff\") format(\"woff\");\n}\n\n@font-face {\n  font-family: \"Muli\";\n  font-style: normal;\n  font-weight: 600;\n  src: url(\"../Marvel/fonts/muli-600.woff2\") format(\"woff2\"), url(\"../Marvel/fonts/muli-600.woff\") format(\"woff\");\n}\n\nbody {\n  max-width: 1920px;\n  margin: 0 auto;\n  font-family: \"Montserrat\";\n}\n\n@media only screen and (max-width: 1200px) {\n  body {\n    max-width: 1200px;\n  }\n}", ""]);
 
 // exports
 
@@ -4126,7 +4135,142 @@ exports = module.exports = __webpack_require__(0)(false);
 
 
 // module
-exports.push([module.i, ".portfolio__header-container {\n  background-color: #ffe400;\n}\n\n.portfolio__header {\n  font-size: 30px;\n  font-weight: bold;\n  text-transform: uppercase;\n}", ""]);
+exports.push([module.i, ".portfolio__header-container {\n  background-color: #ffe400;\n}\n\n.portfolio__header {\n  font-size: 30px;\n  font-weight: bold;\n  text-transform: uppercase;\n  padding-top: 140px;\n  padding-bottom: 70px;\n  text-align: center;\n  margin-bottom: 0;\n  background-image: url(\"../Marvel/src/img/work.svg\");\n  background-repeat: no-repeat;\n  background-position: center 58%;\n}\n\n.portfolio__menu {\n  display: flex;\n  justify-content: center;\n  padding-bottom: 58px;\n}\n\n.portfolio__menu a {\n  text-decoration: none;\n  display: block;\n  text-align: center;\n  padding-top: 15px;\n  padding-bottom: 15px;\n  padding-left: 18px;\n  padding-right: 18px;\n  font-size: 13px;\n  color: #000000;\n  border: 1px solid #000000;\n  margin-right: 11px;\n}\n\n.portfolio__menu a:first-child {\n  background-color: #000000;\n  background-image: url(\"../Marvel/src/img/burger.svg\");\n  background-repeat: no-repeat;\n  width: 50px;\n  box-sizing: border-box;\n  background-position: 50%;\n}\n\n.portfolio__menu a:last-child {\n  margin-right: 0;\n}\n\n.portfolio__images-grid {\n  display: grid;\n  grid-template-columns: auto auto auto auto;\n}\n\n.portfolio__image {\n  width: 100%;\n}", ""]);
+
+// exports
+
+
+/***/ }),
+/* 25 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(26);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../node_modules/css-loader/index.js?url=false!../../node_modules/resolve-url-loader/index.js!../../node_modules/sass-loader/lib/loader.js!./service.scss", function() {
+			var newContent = require("!!../../node_modules/css-loader/index.js?url=false!../../node_modules/resolve-url-loader/index.js!../../node_modules/sass-loader/lib/loader.js!./service.scss");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 26 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(false);
+// imports
+
+
+// module
+exports.push([module.i, ".service__header {\n  font-size: 30px;\n  font-weight: bold;\n  text-transform: uppercase;\n  text-align: start;\n  margin: 0;\n  padding-top: 200px;\n  background-image: url(\"../Marvel/src/img/service.svg\");\n  background-repeat: no-repeat;\n  background-position: 0 96%;\n}\n\n.service__container {\n  padding-left: 52%;\n  padding-right: 18%;\n  background-image: url(\"../Marvel/src/img/service-bg.jpg\");\n  background-repeat: no-repeat;\n  background-position: 0 bottom;\n}\n\n.service__features-grid {\n  display: grid;\n  grid-template-columns: auto auto;\n  padding-top: 70px;\n  padding-bottom: 30px;\n}\n\n.service__feature {\n  padding-bottom: 65px;\n  padding-top: 124px;\n  padding-left: 10px;\n  padding-right: 10px;\n  text-align: center;\n  position: relative;\n}\n\n.service__feature:before {\n  content: \"\";\n  background-repeat: no-repeat;\n  position: absolute;\n  left: 44%;\n  top: 67px;\n  width: 38px;\n  height: 38px;\n}\n\n.service__feature:first-child,\n.service__feature:nth-child(2) {\n  border-bottom: 1px solid #e6e6e6;\n}\n\n.service__title {\n  font-size: 18px;\n  font-weight: bold;\n  text-transform: uppercase;\n}\n\n.service__description {\n  font-family: \"Muli\", Arial, sans-serif;\n  font-size: 16px;\n  line-height: 26px;\n  color: #7e7e7e;\n}\n\n.service__feature--features:before {\n  background-image: url(\"../Marvel/src/img/features-i.svg\");\n}\n\n.service__feature--simple:before {\n  background-image: url(\"../Marvel/src/img/simple.svg\");\n}\n\n.service__feature--parallax:before {\n  width: 40px;\n  background-image: url(\"../Marvel/src/img/parallax.svg\");\n}\n\n.service__feature--support:before {\n  background-image: url(\"../Marvel/src/img/support.svg\");\n}", ""]);
+
+// exports
+
+
+/***/ }),
+/* 27 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(28);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../node_modules/css-loader/index.js?url=false!../../node_modules/resolve-url-loader/index.js!../../node_modules/sass-loader/lib/loader.js!./pricing.scss", function() {
+			var newContent = require("!!../../node_modules/css-loader/index.js?url=false!../../node_modules/resolve-url-loader/index.js!../../node_modules/sass-loader/lib/loader.js!./pricing.scss");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 28 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(false);
+// imports
+
+
+// module
+exports.push([module.i, ".pricing__header {\n  padding-top: 150px;\n  padding-bottom: 140px;\n  font-size: 30px;\n  font-weight: bold;\n  text-transform: uppercase;\n  text-align: start;\n  margin: 0;\n  text-align: center;\n  background-image: url(\"../Marvel/src/img/price.svg\");\n  background-repeat: no-repeat;\n  background-position: center 44%;\n}\n\n.pricing__container {\n  background-color: #f5de16;\n  background-image: url(\"../Marvel/src/img/price-bg.jpg\");\n}\n\n.pricing__price-block-container {\n  display: grid;\n  grid-template-columns: auto auto auto;\n  grid-gap: 2%;\n  justify-content: center;\n  padding-left: 20%;\n  padding-right: 20%;\n  padding-bottom: 108px;\n}\n\n.pricing__price-block {\n  width: 360px;\n}\n\n.pricing__price-block--standart .pricing__head {\n  background-image: url(\"../Marvel/src/img/standart.jpg\");\n}\n\n.pricing__price-block--standart .pricing__feautures-list:last-child:before {\n  content: \"\";\n}\n\n.pricing__price-block--premium .pricing__head {\n  background-image: url(\"../Marvel/src/img/popular.jpg\");\n}\n\n.pricing__price-block--ultimate .pricing__head {\n  background-image: url(\"../Marvel/src/img/extra.jpg\");\n}\n\n.pricing__head {\n  color: #ffffff;\n  background-repeat: no-repeat;\n  background-size: cover;\n}\n\n.pricing__type {\n  font-size: 15px;\n  text-transform: uppercase;\n  font-weight: bold;\n  letter-spacing: 3px;\n  text-align: center;\n  padding-top: 30px;\n  padding-bottom: 45px;\n  margin: 0;\n  font-family: sans-serif;\n}\n\n.pricing__price {\n  font-size: 60px;\n  font-weight: bold;\n  margin: 0;\n  text-align: center;\n  padding-bottom: 18px;\n}\n\n.pricing__price span {\n  font-size: 13px;\n  font-family: \"Muli\", Arial, sans-serif;\n  text-transform: uppercase;\n}\n\n.pricing__trial {\n  font-size: 13px;\n  font-family: \"Muli\", Arial, sans-serif;\n  padding-bottom: 38px;\n  display: block;\n  text-align: center;\n}\n\n.pricing__feautures {\n  display: grid;\n  grid-template-rows: repeat(7, 60px);\n  background-color: #ffffff;\n  margin: 0;\n  padding-top: 80px;\n  list-style: none;\n  padding-left: 0;\n}\n\n.pricing__feautures li {\n  position: relative;\n  font-family: \"Muli\", Arial, sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  border-bottom: 1px solid #f0f0f0;\n  font-size: 14px;\n  line-height: 60px;\n  color: #888888;\n  text-align: center;\n}\n\n.pricing__feautures li:before {\n  content: \"\\9B\";\n  vertical-align: 1%;\n  padding-right: 9px;\n}\n\n.pricing__start-now {\n  text-decoration: none;\n  color: #444444;\n  text-align: center;\n  background-color: #ffffff;\n  padding-top: 15px;\n  padding-bottom: 15px;\n  display: block;\n  margin-top: 5px;\n  font-size: 14px;\n}", ""]);
+
+// exports
+
+
+/***/ }),
+/* 29 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(30);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../node_modules/css-loader/index.js?url=false!../../node_modules/resolve-url-loader/index.js!../../node_modules/sass-loader/lib/loader.js!./_variables.scss", function() {
+			var newContent = require("!!../../node_modules/css-loader/index.js?url=false!../../node_modules/resolve-url-loader/index.js!../../node_modules/sass-loader/lib/loader.js!./_variables.scss");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 30 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
 
 // exports
 

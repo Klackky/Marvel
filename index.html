@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Marvel</title>
     <link rel='stylesheet' href='dist/style.css'>
+    <script defer src="src/js/fontawesome-all.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
@@ -149,45 +150,48 @@
             <a href="#"> Photography </a>
           </div>
        </div>
-        <div class="images-grid">
-          <img class=images-grid__image src="src/img/bridge.jpg" width="480" height="307" alt="bridge">
-          <img class=images-grid__image src="src/img/laptop.jpg" width="480" height="307" alt="woman-with-laptop">
-          <img class=images-grid__image src="src/img/gothic.jpg" width="480" height="307" alt="gothic-girl">
-          <img class=images-grid__image src="src/img/bold.jpg" width="480" height="307" alt="bold-girl">
-          <img class=images-grid__image src="src/img/pilot.jpg" width="480" height="307" alt="pilot">
-          <img class=images-grid__image src="src/img/coffee.jpg" width="480" height="307" alt="man-with-coffee">
-          <img class=images-grid__image src="src/img/selfie.jpg" width="480" height="307" alt="selfie">
-          <img class=images-grid__image src="src/img/woman.jpg" width="480" height="307" alt="woman">
+        <div class="portfolio__images-grid">
+          <img class="portfolio__image" src="src/img/bridge.jpg" width="480" height="307" alt="bridge">
+          <img class="portfolio__image" src="src/img/laptop.jpg" width="480" height="307" alt="woman-with-laptop">
+          <img class="portfolio__image" src="src/img/gothic.jpg" width="480" height="307" alt="gothic-girl">
+          <img class="portfolio__image" src="src/img/bold.jpg" width="480" height="307" alt="bold-girl">
+          <img class="portfolio__image" src="src/img/pilot.jpg" width="480" height="307" alt="pilot">
+          <img class="portfolio__image" src="src/img/coffee.jpg" width="480" height="307" alt="man-with-coffee">
+          <img class="portfolio__image" src="src/img/selfie.jpg" width="480" height="307" alt="selfie">
+          <img class="portfolio__image" src="src/img/woman.jpg" width="480" height="307" alt="woman">
         </div>
       </section>
       <section class="service">
+        <div class="service__container">
         <h2 class="service__header"> Clean idea and unique design </h2>
         <div class="service__features-grid">
-          <div class="service__feature">
+          <div class="service__feature service__feature--features">
             <p class="service__title"> Excellent features </p>
             <p class="service__description"> Lorem ipsum doloar sit amet meconstur adipiscing.</p>
           </div>
-          <div class="service__feature">
+          <div class="service__feature service__feature--simple">
             <p class="service__title"> Simple & Clean </p>
             <p class="service__description"> Lorem ipsum doloar sit amet meconstur adipiscing.</p>
           </div>
-          <div class="service__feature">
+          <div class="service__feature service__feature--parallax">
             <p class="service__title"> Parallax Effect </p>
             <p class="service__description"> Lorem ipsum doloar sit amet meconstur adipiscing.</p>
           </div>
-          <div class="service__feature">
+          <div class="service__feature service__feature--support">
             <p class="service__title"> 24/7 support</p>
             <p class="service__description"> Lorem ipsum doloar sit amet meconstur adipiscing.</p>
           </div>
         </div>
+      </div>
       </section>
       <section class="pricing">
+        <div class="pricing__container">
         <h2 class="pricing__header"> Choose your plan </h2>
         <div class="pricing__price-block-container">
-          <div class="pricing__price-block">
+          <div class="pricing__price-block pricing__price-block--standart">
             <div class="pricing__head">
               <h3 class="pricing__type"> Standart </h3>
-              <p class="pricing__price"> $107/month </p>
+              <p class="pricing__price"> $107<span>/ month</span> </p>
               <span class="pricing__trial"> 15 days free trial on all accounts </span>
             </div>
             <ul class="pricing__feautures">
@@ -196,15 +200,16 @@
               <li class="pricing__feautures-list"> Developer Platform </li>
               <li class="pricing__feautures-list"> 20 Pages, Galleries </li>
               <li class="pricing__feautures-list"> 120 GB Cloud Storage </li>
+              <li class="pricing__feautures-list"> &nbsp </li>
             </ul>
             <div class="pricing__start-now-container">
               <a class="pricing__start-now" href="#"> Get Started Now </a>
             </div>
           </div>
-          <div class="pricing__price-block">
+          <div class="pricing__price-block pricing__price-block--premium">
             <div class="pricing__head">
               <h3 class="pricing__type"> Premium </h3>
-              <p class="pricing__price"> $433/month </p>
+              <p class="pricing__price"> $433<span>/ month</span> </p>
               <span class="pricing__trial"> 15 days free trial on all accounts </span>
             </div>
             <ul class="pricing__feautures">
@@ -219,10 +224,10 @@
               <a class="pricing__start-now" href="#"> Get Started Now </a>
             </div>
           </div>
-          <div class="pricing__price-block">
+          <div class="pricing__price-block pricing__price-block--ultimate">
             <div class="pricing__head">
               <h3 class="pricing__type"> Ultimate </h3>
-              <p class="pricing__price"> $1233/month</p>
+              <p class="pricing__price"> $1233<span>/ month</span></p>
               <span class="pricing__trial"> 15 days free trial on all accounts </span>
             </div>
             <ul class="pricing__feautures">
@@ -239,6 +244,7 @@
             </div>
           </div>
         </div>
+      </div>
       </section>
       <section class="team">
         <h2 class="team__header"> Meet our team </h2>

@@ -30,3 +30,8 @@ body {
   margin: 0 auto;
   font-family: "Montserrat";
 }
+@media only screen and (max-width: 1200px) {
+    body {
+        max-width: 1200px;
+    }
+}
