@@ -24,7 +24,8 @@
     "webpack-livereload-plugin": "^1.0.0"
   },
   "dependencies": {
-    "fontface-loader": "0.0.8"
+    "fontface-loader": "0.0.8",
+    "load-google-maps-api": "^1.0.1"
   },
   "repository": {
     "type": "git",

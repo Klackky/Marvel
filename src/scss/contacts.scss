@@ -1,0 +1,53 @@
+.contacts__name {
+  border: 1px solid #e6e6e6;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  font-family: inherit;
+}
+.contacts__container {
+  background-image: url("../Marvel/src/img/map.jpg");
+  background-size: cover;
+  padding-bottom: 128px;
+}
+.contacts__form {
+  padding-left: 20%;
+  padding-right: 20%;
+  font-family: "Muli", Arial, sans-serif;
+  font-size: 14px;
+}
+.contacts__grids {
+  display: grid;
+  grid-gap: 2%;
+  grid-row-gap: 18px;
+  grid-template-columns: repeat(2, [col] auto);
+  grid-template-rows: repeat(3, [row] auto  );
+}
+.contacts__label-textarea {
+  grid-row: row 3;
+  grid-column: col / span 2;
+}
+.contacts__textarea {
+  width: 100%;
+  font-family: inherit;
+  padding-left: 20px;
+  padding-top: 25px;
+  box-sizing: border-box;
+  border: 1px solid #e6e6e6;
+  height: 510px;
+  resize: none;
+}
+.contacts__button {
+  width: 145px;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  font-size: 17px;
+  background-color: #ffe400;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  text-align: center;
+  margin-top: 25px;
+}

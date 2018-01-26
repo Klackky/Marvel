@@ -1,0 +1,21 @@
+#map {
+   width: 100%;
+   height: 400px;
+   background-color: grey;
+   display: none;
+ }
+.map__header {
+  background-color: #ffe400;
+  margin: 0;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  position: relative;
+  cursor: pointer;
+}
+.map__arrow {
+  position: absolute;
+  top: 63px;
+  right: 42%;
+  cursor: pointer;
+}

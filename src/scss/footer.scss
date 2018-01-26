@@ -1,0 +1,26 @@
+.main-footer__container {
+  padding-top: 60px;
+  padding-bottom: 120px;
+  background-color: #212121;
+  color: #ffffff;
+  display: flex;
+  padding-left: 24.5%;
+  padding-right: 24.5%;
+  justify-content: space-between;
+}
+.main-footer__icon{
+  color: #ffffff;
+  text-decoration: none;
+}
+.main-footer__phone-img {
+  margin-left: 30px;
+}
+.main-footer__globe-img {
+  margin-left: 45px;
+}
+.main-footer__icons {
+  width: 30%;
+  margin-top: 38px;
+  display: flex;
+  justify-content: space-between;
+}

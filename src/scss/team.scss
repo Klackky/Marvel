@@ -1,0 +1,38 @@
+.team__members-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto auto;
+  padding-left: 20%;
+  padding-right: 20%;
+  grid-gap: 2%;
+}
+.team__photo {
+  background-color: #ebebeb;
+  width: 360px;
+  padding-top: 30px;
+}
+.team__text {
+  background-color: #ebebeb;
+}
+.team__name {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px dashed #b7b7b7;
+  text-align: center;
+  margin-top: 12px;
+  margin: 0 22px;
+}
+.team__title {
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  margin: 0;
+}
+.team__container {
+  padding-bottom: 350px;
+}

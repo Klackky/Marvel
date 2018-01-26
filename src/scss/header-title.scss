@@ -1,0 +1,48 @@
+.header-title {
+  font-size: 30px;
+  margin: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+.header-title--service {
+  text-align: start;
+  padding-top: 200px;
+  background-image: url("../Marvel/src/img/service.svg");
+  background-position: 0 96%;
+}
+.header-title--portfolio {
+  padding-top: 140px;
+  padding-bottom: 70px;
+  background-image: url("../Marvel/src/img/work.svg");
+  background-position: center 58%;
+}
+.header-title--pricing {
+  padding-top: 150px;
+  padding-bottom: 140px;
+  text-align: center;
+  background-image: url("../Marvel/src/img/price.svg");
+  background-position: center 44%;
+}
+.header-title--team {
+    padding-top: 290px;
+    padding-bottom: 130px;
+    background-image: url("../Marvel/src/img/team.svg");
+    background-position: center 65%;
+}
+.header-title--feedback {
+  color: #ffffff;
+}
+.header-title--news {
+  padding-top: 180px;
+  padding-bottom: 120px;
+  background-image: url("../Marvel/src/img/news.svg");
+  background-position: center 53%;
+}
+.header-title--contacts {
+  background-image: url("../Marvel/src/img/contact.svg");
+  background-position: center 41%;
+  padding-top: 165px;
+  padding-bottom: 175px;
+}
