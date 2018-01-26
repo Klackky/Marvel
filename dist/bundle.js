@@ -529,46 +529,49 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__js_unicorns_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__js_unicorns_js__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__js_map_js__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__js_map_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__js_map_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__js_fontawesome_all_js__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__js_fontawesome_all_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__js_fontawesome_all_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__scss_base_scss__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__scss_base_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__scss_base_scss__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__scss_header_scss__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__scss_header_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__scss_header_scss__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__scss_main_nav_scss__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__scss_main_nav_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__scss_main_nav_scss__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__scss_about_scss__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__scss_about_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__scss_about_scss__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__scss_main_content_scss__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__scss_main_content_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__scss_main_content_scss__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__scss_boost_scss__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__scss_boost_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9__scss_boost_scss__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__scss_introduction_scss__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__scss_introduction_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10__scss_introduction_scss__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__scss_features_scss__ = __webpack_require__(22);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__scss_features_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11__scss_features_scss__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__scss_portfolio_scss__ = __webpack_require__(24);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__scss_portfolio_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12__scss_portfolio_scss__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__scss_service_scss__ = __webpack_require__(26);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__scss_service_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13__scss_service_scss__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__scss_pricing_scss__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__scss_pricing_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14__scss_pricing_scss__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__scss_variables_scss__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__scss_variables_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15__scss_variables_scss__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__scss_header_title_scss__ = __webpack_require__(32);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__scss_header_title_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_16__scss_header_title_scss__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__scss_team_scss__ = __webpack_require__(34);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__scss_team_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_17__scss_team_scss__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__scss_feedback_scss__ = __webpack_require__(36);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__scss_feedback_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_18__scss_feedback_scss__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__scss_news_scss__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__scss_news_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_19__scss_news_scss__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__scss_contacts_scss__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__scss_contacts_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_20__scss_contacts_scss__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__scss_map_scss__ = __webpack_require__(42);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__scss_map_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_21__scss_map_scss__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__scss_footer_scss__ = __webpack_require__(44);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__scss_footer_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_22__scss_footer_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__js_scroll_js__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__js_scroll_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__js_scroll_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__js_fontawesome_all_js__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__js_fontawesome_all_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__js_fontawesome_all_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__scss_base_scss__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__scss_base_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__scss_base_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__scss_header_scss__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__scss_header_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__scss_header_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__scss_main_nav_scss__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__scss_main_nav_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__scss_main_nav_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__scss_about_scss__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__scss_about_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__scss_about_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__scss_main_content_scss__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__scss_main_content_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9__scss_main_content_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__scss_boost_scss__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__scss_boost_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10__scss_boost_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__scss_introduction_scss__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__scss_introduction_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11__scss_introduction_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__scss_features_scss__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__scss_features_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12__scss_features_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__scss_portfolio_scss__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__scss_portfolio_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13__scss_portfolio_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__scss_service_scss__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__scss_service_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14__scss_service_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__scss_pricing_scss__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__scss_pricing_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15__scss_pricing_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__scss_variables_scss__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__scss_variables_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_16__scss_variables_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__scss_header_title_scss__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__scss_header_title_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_17__scss_header_title_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__scss_team_scss__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__scss_team_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_18__scss_team_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__scss_feedback_scss__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__scss_feedback_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_19__scss_feedback_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__scss_news_scss__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__scss_news_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_20__scss_news_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__scss_contacts_scss__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__scss_contacts_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_21__scss_contacts_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__scss_map_scss__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__scss_map_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_22__scss_map_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__scss_footer_scss__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__scss_footer_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_23__scss_footer_scss__);
+
 
 
 
@@ -599,6 +602,16 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /***/ (function(module, exports) {
 
 console.log('This is rainbows.js');
+const mapTrigger = document.querySelector('.map');
+const map = document.querySelector('.map__map');
+mapTrigger.addEventListener('click', toggleHandler);
+function toggleHandler () {
+  if (map.style.display === 'none') {
+    map.style.display = 'block'
+  } else {
+    map.style.display = 'none'
+  }
+};
 
 
 /***/ }),
@@ -610,11 +623,13 @@ console.log('Hello, unicorns!');
 
 /***/ }),
 /* 5 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
 
 function initMap() {
      var uluru = {lat: -33.925752, lng: 18.429870};
-     var map = new google.maps.Map(document.getElementById('map'), {
+     var map = new google.maps.Map(document.querySelector('.map__map'), {
        zoom: 16,
        center: uluru
      });
@@ -3952,7 +3967,7 @@ exports = module.exports = __webpack_require__(0)(false);
 
 
 // module
-exports.push([module.i, ".about__header {\n  font-size: 36px;\n  margin: 0;\n  padding-top: 130px;\n  text-align: center;\n  font-weight: bold;\n  text-transform: uppercase;\n  background-image: url(\"../Marvel/src/img/about.svg\");\n  background-repeat: no-repeat;\n  background-position: 50% 93%;\n}\n\n.about {\n  background-image: url(\"../Marvel/src/img/circle.svg\");\n  background-repeat: no-repeat;\n  background-position: 0% 37%;\n  background-size: 30%;\n}\n\n.about__text {\n  font-size: 16px;\n  text-align: center;\n  font-family: \"Muli\";\n  color: #757575;\n}\n\n.about__links-container {\n  display: flex;\n  justify-content: center;\n  padding-top: 75px;\n  padding-bottom: 80px;\n}\n\n.about__links {\n  width: 223px;\n  text-align: center;\n  padding-top: 25px;\n  padding-bottom: 25px;\n  text-decoration: none;\n  display: block;\n}\n\n.about__links--more-info {\n  background-color: #000000;\n  color: #ffe400;\n  margin-right: 30px;\n}\n\n.about__links--join {\n  background-color: #ffe400;\n  color: #000000;\n}\n\n.about__features {\n  display: flex;\n  justify-content: space-between;\n}\n\n.about__feature {\n  width: 30%;\n  text-align: center;\n  font-size: 24px;\n  font-weight: bold;\n  color: #ffffff;\n  background-repeat: no-repeat;\n  margin-top: 0;\n  margin-right: 5%;\n}\n\n.about__feature--design {\n  background-image: url(\"../Marvel/src/img/star.png\");\n  padding-top: 253px;\n  padding-bottom: 127px;\n}\n\n.about__feature--security {\n  background-image: url(\"../Marvel/src/img/lock.png\");\n  padding-top: 250px;\n  padding-bottom: 128px;\n  margin-right: 0;\n}\n\n.about__feature--design,\n.about__feature--security {\n  background-color: #212121;\n  background-position: 50% 30%;\n  margin-bottom: 0;\n}\n\n.about__feature--features {\n  background-color: #ffe400;\n  background-image: url(\"../Marvel/src/img/globe.png\");\n  padding-top: 200px;\n  padding-bottom: 70px;\n  background-position: 50% 20%;\n}\n\n.about__feature--features span {\n  font-family: \"Muli\";\n  font-size: 16px;\n  padding-left: 10px;\n  padding-right: 10px;\n  display: block;\n}\n\n.about__container {\n  padding-left: 390px;\n  padding-right: 390px;\n}\n\n.about__numbers-header {\n  font-size: 30px;\n  color: #444444;\n  font-weight: bold;\n  text-align: center;\n  text-transform: uppercase;\n  padding-top: 178px;\n}\n\n.about__numbers {\n  display: flex;\n  justify-content: space-around;\n}\n\n.about__number {\n  color: #444444;\n  padding-top: 120px;\n  padding-bottom: 145px;\n}\n\n.about__number p {\n  font-size: 46px;\n  font-weight: bold;\n  margin: 0;\n}\n\n.about__number span {\n  font-size: 13px;\n  font-family: \"Muli\";\n  font-weight: bold;\n}", ""]);
+exports.push([module.i, ".about__header {\n  font-size: 36px;\n  margin: 0;\n  padding-top: 130px;\n  text-align: center;\n  font-weight: bold;\n  text-transform: uppercase;\n  background-image: url(\"../Marvel/src/img/about.svg\");\n  background-repeat: no-repeat;\n  background-position: 50% 93%;\n}\n\n.about {\n  background-image: url(\"../Marvel/src/img/circle.svg\");\n  background-repeat: no-repeat;\n  background-position: 0% 37%;\n  background-size: 30%;\n}\n\n.about__text {\n  font-size: 16px;\n  text-align: center;\n  font-family: \"Muli\";\n  color: #757575;\n}\n\n.about__links-container {\n  display: flex;\n  justify-content: center;\n  padding-top: 75px;\n  padding-bottom: 80px;\n}\n\n.about__links {\n  width: 223px;\n  text-align: center;\n  padding-top: 25px;\n  padding-bottom: 25px;\n  text-decoration: none;\n  display: block;\n}\n\n.about__links--more-info {\n  background-color: #000000;\n  color: #ffe400;\n  margin-right: 30px;\n}\n\n.about__links--join {\n  background-color: #ffe400;\n  color: #000000;\n}\n\n.about__features {\n  display: grid;\n  grid-template-columns: repeat(3, 360px);\n  grid-gap: 2%;\n  justify-content: center;\n}\n\n.about__feature {\n  width: 360px;\n  text-align: center;\n  font-size: 24px;\n  font-weight: bold;\n  color: #ffffff;\n  background-repeat: no-repeat;\n  margin-top: 0;\n  margin-right: 5%;\n}\n\n.about__feature--design {\n  background-image: url(\"../Marvel/src/img/star.png\");\n  padding-top: 253px;\n  padding-bottom: 127px;\n}\n\n.about__feature--security {\n  background-image: url(\"../Marvel/src/img/lock.png\");\n  padding-top: 250px;\n  padding-bottom: 128px;\n  margin-right: 0;\n}\n\n.about__feature--design,\n.about__feature--security {\n  background-color: #212121;\n  background-position: 50% 30%;\n  margin-bottom: 0;\n}\n\n.about__feature--features {\n  background-color: #ffe400;\n  background-image: url(\"../Marvel/src/img/globe.png\");\n  padding-top: 200px;\n  padding-bottom: 70px;\n  background-position: 50% 20%;\n}\n\n.about__feature--features span {\n  font-family: \"Muli\";\n  font-size: 16px;\n  padding-left: 10px;\n  padding-right: 10px;\n  display: block;\n}\n\n.about__container {\n  padding-left: 390px;\n  padding-right: 390px;\n}\n\n.about__numbers-header {\n  font-size: 30px;\n  color: #444444;\n  font-weight: bold;\n  text-align: center;\n  text-transform: uppercase;\n  padding-top: 178px;\n}\n\n.about__numbers {\n  display: flex;\n  justify-content: space-around;\n}\n\n.about__number {\n  color: #444444;\n  padding-top: 120px;\n  padding-bottom: 145px;\n}\n\n.about__number p {\n  font-size: 46px;\n  font-weight: bold;\n  margin: 0;\n}\n\n.about__number span {\n  font-size: 13px;\n  font-family: \"Muli\";\n  font-weight: bold;\n}", ""]);
 
 // exports
 
@@ -4222,7 +4237,7 @@ exports = module.exports = __webpack_require__(0)(false);
 
 
 // module
-exports.push([module.i, ".service__container {\n  padding-left: 52%;\n  padding-right: 18%;\n  background-image: url(\"../Marvel/src/img/service-bg.jpg\");\n  background-repeat: no-repeat;\n  background-position: 0 bottom;\n}\n\n.service__features-grid {\n  display: grid;\n  grid-template-columns: auto auto;\n  padding-top: 70px;\n  padding-bottom: 30px;\n}\n\n.service__feature {\n  padding-bottom: 65px;\n  padding-top: 124px;\n  padding-left: 10px;\n  padding-right: 10px;\n  text-align: center;\n  position: relative;\n}\n\n.service__feature:before {\n  content: \"\";\n  background-repeat: no-repeat;\n  position: absolute;\n  left: 44%;\n  top: 67px;\n  width: 38px;\n  height: 38px;\n}\n\n.service__feature:first-child,\n.service__feature:nth-child(2) {\n  border-bottom: 1px solid #e6e6e6;\n}\n\n.service__title {\n  font-size: 18px;\n  font-weight: bold;\n  text-transform: uppercase;\n}\n\n.service__description {\n  font-family: \"Muli\", Arial, sans-serif;\n  font-size: 16px;\n  line-height: 26px;\n  color: #7e7e7e;\n}\n\n.service__feature--features:before {\n  background-image: url(\"../Marvel/src/img/features-i.svg\");\n}\n\n.service__feature--simple:before {\n  background-image: url(\"../Marvel/src/img/simple.svg\");\n}\n\n.service__feature--parallax:before {\n  width: 40px;\n  background-image: url(\"../Marvel/src/img/parallax.svg\");\n}\n\n.service__feature--support:before {\n  background-image: url(\"../Marvel/src/img/support.svg\");\n}", ""]);
+exports.push([module.i, ".service__container {\n  padding-left: 50%;\n  background-image: url(\"../Marvel/src/img/service-bg.jpg\");\n  background-repeat: no-repeat;\n  background-position: 0 bottom;\n  background-size: 50% 70%;\n}\n\n.service__features-grid {\n  display: grid;\n  grid-template-columns: auto auto;\n  padding-top: 70px;\n  padding-bottom: 30px;\n  justify-content: end;\n  padding-right: 20%;\n}\n\n.service__feature {\n  padding-bottom: 65px;\n  padding-top: 124px;\n  padding-left: 10px;\n  padding-right: 10px;\n  text-align: center;\n  position: relative;\n}\n\n.service__feature:before {\n  content: \"\";\n  background-repeat: no-repeat;\n  position: absolute;\n  left: 44%;\n  top: 67px;\n  width: 38px;\n  height: 38px;\n}\n\n.service__feature:first-child,\n.service__feature:nth-child(2) {\n  border-bottom: 1px solid #e6e6e6;\n}\n\n.service__title {\n  font-size: 18px;\n  font-weight: bold;\n  text-transform: uppercase;\n}\n\n.service__description {\n  font-family: \"Muli\", Arial, sans-serif;\n  font-size: 16px;\n  line-height: 26px;\n  color: #7e7e7e;\n}\n\n.service__feature--features:before {\n  background-image: url(\"../Marvel/src/img/features-i.svg\");\n}\n\n.service__feature--simple:before {\n  background-image: url(\"../Marvel/src/img/simple.svg\");\n}\n\n.service__feature--parallax:before {\n  width: 40px;\n  background-image: url(\"../Marvel/src/img/parallax.svg\");\n}\n\n.service__feature--support:before {\n  background-image: url(\"../Marvel/src/img/support.svg\");\n}\n\n@media screen and (min-width: 1700px) {\n  .service__container {\n    background-size: unset;\n  }\n}", ""]);
 
 // exports
 
@@ -4402,7 +4417,7 @@ exports = module.exports = __webpack_require__(0)(false);
 
 
 // module
-exports.push([module.i, ".team__members-container {\n  display: grid;\n  justify-content: center;\n  grid-template-columns: auto auto auto;\n  padding-left: 20%;\n  padding-right: 20%;\n  grid-gap: 2%;\n}\n\n.team__photo {\n  background-color: #ebebeb;\n  width: 360px;\n  padding-top: 30px;\n}\n\n.team__text {\n  background-color: #ebebeb;\n}\n\n.team__name {\n  font-size: 16px;\n  font-weight: bold;\n  text-transform: uppercase;\n  padding-top: 24px;\n  padding-bottom: 24px;\n  border-bottom: 1px dashed #b7b7b7;\n  text-align: center;\n  margin-top: 12px;\n  margin: 0 22px;\n}\n\n.team__title {\n  font-size: 11px;\n  text-transform: uppercase;\n  text-align: center;\n  padding-top: 22px;\n  padding-bottom: 22px;\n  margin: 0;\n}\n\n.team__container {\n  padding-bottom: 350px;\n}", ""]);
+exports.push([module.i, ".team__members-container {\n  display: grid;\n  justify-content: center;\n  grid-template-columns: auto auto auto;\n  padding-left: 20%;\n  padding-right: 20%;\n  grid-gap: 2%;\n}\n\n.team__photo {\n  background-color: #ebebeb;\n  width: 360px;\n  padding-top: 30px;\n}\n\n.team__text {\n  background-color: #ebebeb;\n}\n\n.team__name {\n  font-size: 16px;\n  font-weight: bold;\n  text-transform: uppercase;\n  padding-top: 24px;\n  padding-bottom: 24px;\n  border-bottom: 1px dashed #b7b7b7;\n  text-align: center;\n  margin-top: 12px;\n  margin: 0 22px;\n}\n\n.team__title {\n  font-size: 11px;\n  text-transform: uppercase;\n  text-align: center;\n  padding-top: 22px;\n  padding-bottom: 22px;\n  margin: 0;\n}\n\n.team__container {\n  padding-bottom: 290px;\n}", ""]);
 
 // exports
 
@@ -4630,6 +4645,18 @@ exports = module.exports = __webpack_require__(0)(false);
 exports.push([module.i, ".main-footer__container {\n  padding-top: 60px;\n  padding-bottom: 120px;\n  background-color: #212121;\n  color: #ffffff;\n  display: flex;\n  padding-left: 24.5%;\n  padding-right: 24.5%;\n  justify-content: space-between;\n}\n\n.main-footer__icon {\n  color: #ffffff;\n  text-decoration: none;\n}\n\n.main-footer__phone-img {\n  margin-left: 30px;\n}\n\n.main-footer__globe-img {\n  margin-left: 45px;\n}\n\n.main-footer__icons {\n  width: 30%;\n  margin-top: 38px;\n  display: flex;\n  justify-content: space-between;\n}", ""]);
 
 // exports
+
+
+/***/ }),
+/* 46 */
+/***/ (function(module, exports) {
+
+const service = document.querySelector('.main-nav__service');
+service.addEventListener('click', scrollServiceHandler);
+function scrollServiceHandler () {
+  event.preventDefault();
+  window.scrollTo(0, 6250);
+}
 
 
 /***/ })

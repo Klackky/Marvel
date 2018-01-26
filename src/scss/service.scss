@@ -1,15 +1,17 @@
 .service__container {
-  padding-left: 52%;
-  padding-right: 18%;
+  padding-left: 50%;
   background-image: url("../Marvel/src/img/service-bg.jpg");
   background-repeat: no-repeat;
   background-position: 0 bottom;
+  background-size: 50% 70%;
 }
 .service__features-grid {
   display: grid;
   grid-template-columns: auto auto;
   padding-top: 70px;
   padding-bottom: 30px;
+  justify-content: end;
+  padding-right: 20%;
 }
 .service__feature {
   padding-bottom: 65px;
@@ -63,4 +65,9 @@
   &:before {
     background-image: url("../Marvel/src/img/support.svg");
   }
+}
+@media screen and (min-width: 1700px) {
+    .service__container {
+      background-size: unset;
+    }
 }

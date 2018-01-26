@@ -45,11 +45,13 @@
   color: #000000;
 }
 .about__features {
-  display: flex;
-  justify-content: space-between
+  display: grid;
+  grid-template-columns: repeat(3, 360px);
+  grid-gap: 2%;
+  justify-content: center;
 }
 .about__feature {
-  width: 30%;
+  width: 360px;
   text-align: center;
   font-size: 24px;
   font-weight: bold;
