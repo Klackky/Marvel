@@ -1,11 +1,13 @@
 console.log('This is rainbows.js');
-const mapTrigger = document.querySelector('.map');
-const map = document.querySelector('.map__map');
-mapTrigger.addEventListener('click', toggleHandler);
+const mapTrigger = document.querySelector('.map__header');
+const openMap = document.querySelector('.map__map');
+
 function toggleHandler () {
-  if (map.style.display === 'none') {
-    map.style.display = 'block'
+  if (openMap.style.display === 'none') {
+    openMap.style.display = 'block'
+    window.initMap();
   } else {
-    map.style.display = 'none'
+    openMap.style.display = 'none'
   }
 };
+mapTrigger.addEventListener('click', toggleHandler);

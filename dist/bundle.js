@@ -602,16 +602,18 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /***/ (function(module, exports) {
 
 console.log('This is rainbows.js');
-const mapTrigger = document.querySelector('.map');
-const map = document.querySelector('.map__map');
-mapTrigger.addEventListener('click', toggleHandler);
+const mapTrigger = document.querySelector('.map__header');
+const openMap = document.querySelector('.map__map');
+
 function toggleHandler () {
-  if (map.style.display === 'none') {
-    map.style.display = 'block'
+  if (openMap.style.display === 'none') {
+    openMap.style.display = 'block'
+    window.initMap();
   } else {
-    map.style.display = 'none'
+    openMap.style.display = 'none'
   }
 };
+mapTrigger.addEventListener('click', toggleHandler);
 
 
 /***/ }),
@@ -627,9 +629,12 @@ console.log('Hello, unicorns!');
 
 "use strict";
 
+
+
+var map;
 function initMap() {
      var uluru = {lat: -33.925752, lng: 18.429870};
-     var map = new google.maps.Map(document.querySelector('.map__map'), {
+      map = new google.maps.Map(document.querySelector('.map__map'), {
        zoom: 16,
        center: uluru
      });
