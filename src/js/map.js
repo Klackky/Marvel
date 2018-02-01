@@ -13,4 +13,5 @@ function initMap() {
        map: map
      });
    }
+   
 window.initMap = initMap;

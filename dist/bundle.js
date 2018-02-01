@@ -523,10 +523,10 @@ function updateLink (link, options, obj) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__js_rainbows_js__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__js_rainbows_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__js_rainbows_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__js_unicorns_js__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__js_unicorns_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__js_unicorns_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__js_mapToggler_js__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__js_mapToggler_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__js_mapToggler_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__js_modal_js__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__js_modal_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__js_modal_js__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__js_map_js__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__js_map_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__js_map_js__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__js_scroll_js__ = __webpack_require__(6);
@@ -571,6 +571,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__scss_map_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_22__scss_map_scss__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__scss_footer_scss__ = __webpack_require__(45);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__scss_footer_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_23__scss_footer_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__scss_modal_scss__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__scss_modal_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_24__scss_modal_scss__);
 
 
 
@@ -596,34 +598,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-
-/***/ }),
-/* 3 */
-/***/ (function(module, exports) {
-
-console.log('This is rainbows.js');
-const mapTrigger = document.querySelector('.map__header');
-const openMap = document.querySelector('.map__map');
-
-function toggleHandler () {
-  if (openMap.style.display === 'none') {
-    openMap.style.display = 'block'
-    window.initMap();
-  } else {
-    openMap.style.display = 'none'
-  }
-};
-mapTrigger.addEventListener('click', toggleHandler);
 
 
 /***/ }),
-/* 4 */
-/***/ (function(module, exports) {
-
-console.log('Hello, unicorns!');
-
-
-/***/ }),
+/* 3 */,
+/* 4 */,
 /* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -643,6 +622,7 @@ function initMap() {
        map: map
      });
    }
+   
 window.initMap = initMap;
 
 
@@ -3918,7 +3898,7 @@ exports = module.exports = __webpack_require__(0)(false);
 
 
 // module
-exports.push([module.i, ".page-header {\n  font-family: 'Montserrat', sans-serif;\n  position: relative;\n  background-position: center;\n}\n\n.page-header__header {\n  font-size: 60px;\n  margin-top: 0;\n  text-transform: uppercase;\n  padding-top: 412px;\n  color: #444444;\n  z-index: 100;\n  position: relative;\n}\n\n.page-header__container {\n  padding-left: 20%;\n  padding-right: 20%;\n  background-image: url(\"../Marvel/src/img/background.jpg\");\n  background-repeat: no-repeat;\n  background-position: 115% 30%;\n  background-size: 58%;\n}\n\n.page-header__text {\n  font-size: 14px;\n  padding-right: 40%;\n  font-family: \"Lato\";\n  line-height: 24px;\n}\n\n.page-header__logo {\n  position: absolute;\n  top: 397px;\n  z-index: 2;\n}\n\n.page-header__button {\n  text-decoration: none;\n  border: 1px solid #444444;\n  width: 180px;\n  margin-bottom: 318px;\n  padding-top: 20px;\n  padding-bottom: 20px;\n  text-transform: uppercase;\n  background-color: transparent;\n  font-family: \"Montserrat\";\n  font-size: 16px;\n  margin-top: 10px;\n}", ""]);
+exports.push([module.i, ".page-header {\n  font-family: 'Montserrat', sans-serif;\n  position: relative;\n  background-position: center;\n}\n\n.page-header__header {\n  font-size: 60px;\n  margin-top: 0;\n  text-transform: uppercase;\n  padding-top: 412px;\n  color: #444444;\n  z-index: 100;\n  position: relative;\n}\n\n.page-header__container {\n  padding-left: 20%;\n  padding-right: 20%;\n  background-image: url(\"../Marvel/src/img/background.jpg\");\n  background-repeat: no-repeat;\n  background-position: 115% 30%;\n  background-size: 58%;\n}\n\n.page-header__text {\n  font-size: 14px;\n  padding-right: 40%;\n  font-family: \"Lato\";\n  line-height: 24px;\n}\n\n.page-header__logo {\n  position: absolute;\n  top: 397px;\n  z-index: 2;\n}\n\n.page-header__button {\n  text-decoration: none;\n  border: 1px solid #444444;\n  width: 180px;\n  margin-bottom: 318px;\n  padding-top: 20px;\n  padding-bottom: 20px;\n  text-transform: uppercase;\n  background-color: transparent;\n  font-family: \"Montserrat\";\n  font-size: 16px;\n  margin-top: 10px;\n  outline: none;\n  cursor: pointer;\n}\n\n.page-header__button:hover {\n  background-color: #f4f4f4;\n}", ""]);
 
 // exports
 
@@ -3963,7 +3943,7 @@ exports = module.exports = __webpack_require__(0)(false);
 
 
 // module
-exports.push([module.i, ".main-nav {\n  background-color: #2a2a2a;\n}\n\n.main-nav__container {\n  padding-left: 20%;\n  padding-right: 20%;\n  display: flex;\n  padding-top: 20px;\n  padding-bottom: 20px;\n}\n\n.main-nav__menu {\n  display: flex;\n  list-style: none;\n  justify-content: space-between;\n  padding-left: 140px;\n}\n\n.main-nav__menu a {\n  text-decoration: none;\n  text-transform: uppercase;\n  color: #ffffff;\n  padding-right: 60px;\n}\n\n.main-nav__logo {\n  margin-top: 10px;\n}", ""]);
+exports.push([module.i, ".main-nav {\n  background-color: #2a2a2a;\n}\n\n.main-nav__container {\n  padding-left: 20%;\n  padding-right: 20%;\n  display: flex;\n  padding-top: 20px;\n  padding-bottom: 20px;\n}\n\n.main-nav__menu {\n  display: flex;\n  list-style: none;\n  justify-content: space-between;\n  padding-left: 140px;\n}\n\n.main-nav__menu a {\n  text-decoration: none;\n  text-transform: uppercase;\n  color: #ffffff;\n  padding-right: 60px;\n}\n\n.main-nav__menu a:hover {\n  color: #ffe400;\n}\n\n.main-nav__logo {\n  margin-top: 10px;\n}", ""]);
 
 // exports
 
@@ -4008,7 +3988,7 @@ exports = module.exports = __webpack_require__(0)(false);
 
 
 // module
-exports.push([module.i, ".about__header {\n  font-size: 36px;\n  margin: 0;\n  padding-top: 130px;\n  text-align: center;\n  font-weight: bold;\n  text-transform: uppercase;\n  background-image: url(\"../Marvel/src/img/about.svg\");\n  background-repeat: no-repeat;\n  background-position: 50% 93%;\n}\n\n.about {\n  background-image: url(\"../Marvel/src/img/circle.svg\");\n  background-repeat: no-repeat;\n  background-position: 0% 37%;\n  background-size: 30%;\n}\n\n.about__text {\n  font-size: 16px;\n  text-align: center;\n  font-family: \"Muli\";\n  color: #757575;\n}\n\n.about__links-container {\n  display: flex;\n  justify-content: center;\n  padding-top: 75px;\n  padding-bottom: 80px;\n}\n\n.about__links {\n  width: 223px;\n  text-align: center;\n  padding-top: 25px;\n  padding-bottom: 25px;\n  text-decoration: none;\n  display: block;\n}\n\n.about__links--more-info {\n  background-color: #000000;\n  color: #ffe400;\n  margin-right: 30px;\n}\n\n.about__links--join {\n  background-color: #ffe400;\n  color: #000000;\n}\n\n.about__features {\n  display: grid;\n  grid-template-columns: repeat(3, 360px);\n  grid-gap: 2%;\n  justify-content: center;\n}\n\n.about__feature {\n  width: 360px;\n  text-align: center;\n  font-size: 24px;\n  font-weight: bold;\n  color: #ffffff;\n  background-repeat: no-repeat;\n  margin-top: 0;\n  margin-right: 5%;\n}\n\n.about__feature--design {\n  background-image: url(\"../Marvel/src/img/star.png\");\n  padding-top: 253px;\n  padding-bottom: 127px;\n}\n\n.about__feature--security {\n  background-image: url(\"../Marvel/src/img/lock.png\");\n  padding-top: 250px;\n  padding-bottom: 128px;\n  margin-right: 0;\n}\n\n.about__feature--design,\n.about__feature--security {\n  background-color: #212121;\n  background-position: 50% 30%;\n  margin-bottom: 0;\n}\n\n.about__feature--features {\n  background-color: #ffe400;\n  background-image: url(\"../Marvel/src/img/globe.png\");\n  padding-top: 200px;\n  padding-bottom: 70px;\n  background-position: 50% 20%;\n}\n\n.about__feature--features span {\n  font-family: \"Muli\";\n  font-size: 16px;\n  padding-left: 10px;\n  padding-right: 10px;\n  display: block;\n}\n\n.about__container {\n  padding-left: 390px;\n  padding-right: 390px;\n}\n\n.about__numbers-header {\n  font-size: 30px;\n  color: #444444;\n  font-weight: bold;\n  text-align: center;\n  text-transform: uppercase;\n  padding-top: 178px;\n}\n\n.about__numbers {\n  display: flex;\n  justify-content: space-around;\n}\n\n.about__number {\n  color: #444444;\n  padding-top: 120px;\n  padding-bottom: 145px;\n}\n\n.about__number p {\n  font-size: 46px;\n  font-weight: bold;\n  margin: 0;\n}\n\n.about__number span {\n  font-size: 13px;\n  font-family: \"Muli\";\n  font-weight: bold;\n}", ""]);
+exports.push([module.i, ".about__header {\n  font-size: 36px;\n  margin: 0;\n  padding-top: 130px;\n  text-align: center;\n  font-weight: bold;\n  text-transform: uppercase;\n  background-image: url(\"../Marvel/src/img/about.svg\");\n  background-repeat: no-repeat;\n  background-position: 50% 93%;\n}\n\n.about {\n  background-image: url(\"../Marvel/src/img/circle.svg\");\n  background-repeat: no-repeat;\n  background-position: 0% 37%;\n  background-size: 30%;\n}\n\n.about__text {\n  font-size: 16px;\n  text-align: center;\n  font-family: \"Muli\";\n  color: #757575;\n}\n\n.about__links-container {\n  display: flex;\n  justify-content: center;\n  padding-top: 75px;\n  padding-bottom: 80px;\n}\n\n.about__links {\n  width: 223px;\n  text-align: center;\n  padding-top: 25px;\n  padding-bottom: 25px;\n  text-decoration: none;\n  display: block;\n}\n\n.about__links--more-info {\n  background-color: #000000;\n  color: #ffe400;\n  margin-right: 30px;\n}\n\n.about__links--more-info:hover {\n  background-color: #1c1c1c;\n  color: #ffd800;\n}\n\n.about__links--join {\n  background-color: #ffe400;\n  color: #000000;\n}\n\n.about__links--join:hover {\n  background-color: #ffd800;\n}\n\n.about__features {\n  display: grid;\n  grid-template-columns: repeat(3, 360px);\n  grid-gap: 2%;\n  justify-content: center;\n}\n\n.about__feature {\n  width: 360px;\n  text-align: center;\n  font-size: 24px;\n  font-weight: bold;\n  color: #ffffff;\n  background-repeat: no-repeat;\n  margin-top: 0;\n  margin-right: 5%;\n}\n\n.about__feature--design {\n  background-image: url(\"../Marvel/src/img/star.png\");\n  padding-top: 253px;\n  padding-bottom: 127px;\n}\n\n.about__feature--security {\n  background-image: url(\"../Marvel/src/img/lock.png\");\n  padding-top: 250px;\n  padding-bottom: 128px;\n  margin-right: 0;\n}\n\n.about__feature--design,\n.about__feature--security {\n  background-color: #212121;\n  background-position: 50% 30%;\n  margin-bottom: 0;\n}\n\n.about__feature--features {\n  background-color: #ffe400;\n  background-image: url(\"../Marvel/src/img/globe.png\");\n  padding-top: 200px;\n  padding-bottom: 70px;\n  background-position: 50% 20%;\n}\n\n.about__feature--features span {\n  font-family: \"Muli\";\n  font-size: 16px;\n  padding-left: 10px;\n  padding-right: 10px;\n  display: block;\n}\n\n.about__container {\n  padding-left: 390px;\n  padding-right: 390px;\n}\n\n.about__numbers-header {\n  font-size: 30px;\n  color: #444444;\n  font-weight: bold;\n  text-align: center;\n  text-transform: uppercase;\n  padding-top: 178px;\n}\n\n.about__numbers {\n  display: grid;\n  justify-content: center;\n  grid-template-columns: auto auto 200px auto;\n  padding-left: 20%;\n  padding-right: 20%;\n  grid-gap: 180px;\n}\n\n.about__number {\n  color: #444444;\n  padding-top: 120px;\n  padding-bottom: 145px;\n}\n\n.about__number p {\n  font-size: 46px;\n  font-weight: bold;\n  margin: 0;\n}\n\n.about__number span {\n  font-size: 13px;\n  font-family: \"Muli\";\n  font-weight: bold;\n}", ""]);
 
 // exports
 
@@ -4098,7 +4078,7 @@ exports = module.exports = __webpack_require__(0)(false);
 
 
 // module
-exports.push([module.i, ".boost__container {\n  padding-left: 390px;\n  padding-right: 390px;\n  font-size: 16px;\n  color: #757575;\n  background-color: #fafafa;\n  padding-bottom: 115px;\n  background-image: url(\"../Marvel/src/img/man.png\"), url(\"../Marvel/src/img/lamp.png\");\n  background-repeat: no-repeat;\n  background-position: 84% 35%, 4% 0%;\n  background-size: 30%, 10%;\n}\n\n.boost__header {\n  font-size: 26px;\n  color: #444444;\n  background-image: url(\"../Marvel/src/img/resp.svg\");\n  background-repeat: no-repeat;\n  background-position: 0% 91%;\n  text-transform: uppercase;\n  padding-top: 119px;\n  margin: 0;\n}\n\n.boost__text {\n  font-family: \"Muli\";\n  padding-right: 37%;\n  font-weight: 600;\n  padding-bottom: 33px;\n  margin-bottom: 0;\n  padding-top: 23px;\n}\n\n.boost__features {\n  list-style: none;\n  padding-left: 25px;\n}\n\n.boost__features li {\n  position: relative;\n  margin-bottom: 23px;\n}\n\n.boost__features li::before {\n  content: \"\";\n  background-image: url(\"../Marvel/src/img/star-list.svg\");\n  background-repeat: no-repeat;\n  position: absolute;\n  left: -24px;\n  bottom: -2px;\n  width: 16px;\n  height: 20px;\n}\n\n.boost__purchase-button {\n  border: none;\n  background-color: #ffe400;\n  text-transform: uppercase;\n  font-size: 13px;\n  font-family: \"Montserrat\";\n  display: block;\n  width: 125px;\n  text-align: center;\n  padding-top: 15px;\n  padding-bottom: 15px;\n  margin-top: 35px;\n  cursor: pointer;\n}", ""]);
+exports.push([module.i, ".boost__container {\n  padding-left: 390px;\n  padding-right: 390px;\n  font-size: 16px;\n  color: #757575;\n  background-color: #fafafa;\n  padding-bottom: 115px;\n  background-image: url(\"../Marvel/src/img/man.png\"), url(\"../Marvel/src/img/lamp.png\");\n  background-repeat: no-repeat;\n  background-position: 84% 35%, 4% 0%;\n  background-size: 30%, 10%;\n}\n\n.boost__header {\n  font-size: 26px;\n  color: #444444;\n  background-image: url(\"../Marvel/src/img/resp.svg\");\n  background-repeat: no-repeat;\n  background-position: 0% 91%;\n  text-transform: uppercase;\n  padding-top: 119px;\n  margin: 0;\n}\n\n.boost__text {\n  font-family: \"Muli\";\n  padding-right: 37%;\n  font-weight: 600;\n  padding-bottom: 33px;\n  margin-bottom: 0;\n  padding-top: 23px;\n}\n\n.boost__features {\n  list-style: none;\n  padding-left: 25px;\n}\n\n.boost__features li {\n  position: relative;\n  margin-bottom: 23px;\n}\n\n.boost__features li::before {\n  content: \"\";\n  background-image: url(\"../Marvel/src/img/star-list.svg\");\n  background-repeat: no-repeat;\n  position: absolute;\n  left: -24px;\n  bottom: -2px;\n  width: 16px;\n  height: 20px;\n}\n\n.boost__purchase-button {\n  border: none;\n  background-color: #ffe400;\n  text-transform: uppercase;\n  font-size: 13px;\n  font-family: \"Montserrat\", Arial, sans-serif;\n  display: block;\n  width: 125px;\n  text-align: center;\n  padding-top: 15px;\n  padding-bottom: 15px;\n  margin-top: 35px;\n  cursor: pointer;\n}\n\n.boost__purchase-button:hover {\n  background-color: #ffd800;\n}", ""]);
 
 // exports
 
@@ -4143,7 +4123,7 @@ exports = module.exports = __webpack_require__(0)(false);
 
 
 // module
-exports.push([module.i, ".introduction__container {\n  background: url(\"../Marvel/src/img/background-intro.jpg\") no-repeat center 10%;\n  width: 100%;\n  padding-top: 165px;\n  padding-bottom: 132px;\n  text-align: center;\n  position: relative;\n}\n\n.introduction__container:before {\n  content: \"\";\n  background: url(\"../Marvel/src/img/circ.svg\") no-repeat center 0%;\n  position: absolute;\n  left: 58%;\n  top: 8%;\n  width: 570px;\n  height: 570px;\n}\n\n.introduction__header {\n  font-size: 44px;\n  text-transform: uppercase;\n  color: #fdfdfd;\n  margin-top: 0;\n  padding-top: 68px;\n}\n\n.introduction__text {\n  color: #fdfdfd;\n  padding-left: 29%;\n  padding-right: 29%;\n  padding-bottom: 69px;\n  margin: 0;\n  font-family: \"Muli\", sans-serif;\n  font-size: 16px;\n  line-height: 26px;\n}\n\n.introduction__link {\n  text-decoration: none;\n  width: 225px;\n  text-align: center;\n  padding-top: 25px;\n  padding-bottom: 25px;\n  font-size: 18px;\n  display: block;\n}\n\n.introduction__link--more-info {\n  border: 1px solid #ffffff;\n  color: #ffffff;\n  margin-right: 30px;\n}\n\n.introduction__link--join {\n  background-color: #ffe400;\n  color: #000000;\n}\n\n.introduction__links {\n  display: flex;\n  justify-content: center;\n}", ""]);
+exports.push([module.i, ".introduction__container {\n  background: url(\"../Marvel/src/img/background-intro.jpg\") no-repeat center 10%;\n  width: 100%;\n  padding-top: 165px;\n  padding-bottom: 132px;\n  text-align: center;\n  position: relative;\n}\n\n.introduction__container:before {\n  content: \"\";\n  background: url(\"../Marvel/src/img/circ.svg\") no-repeat center 0%;\n  position: absolute;\n  left: 58%;\n  top: 8%;\n  width: 570px;\n  height: 570px;\n}\n\n.introduction__header {\n  font-size: 44px;\n  text-transform: uppercase;\n  color: #fdfdfd;\n  margin-top: 0;\n  padding-top: 68px;\n}\n\n.introduction__text {\n  color: #fdfdfd;\n  padding-left: 29%;\n  padding-right: 29%;\n  padding-bottom: 69px;\n  margin: 0;\n  font-family: \"Muli\", sans-serif;\n  font-size: 16px;\n  line-height: 26px;\n}\n\n.introduction__link {\n  text-decoration: none;\n  width: 225px;\n  text-align: center;\n  padding-top: 25px;\n  padding-bottom: 25px;\n  font-size: 18px;\n  display: block;\n}\n\n.introduction__link--more-info {\n  border: 1px solid #ffffff;\n  color: #ffffff;\n  margin-right: 30px;\n}\n\n.introduction__link--more-info:hover {\n  background-color: #2b2a28;\n}\n\n.introduction__link--join {\n  background-color: #ffe400;\n  color: #000000;\n  z-index: 3;\n}\n\n.introduction__link--join:hover {\n  background-color: #ffd800;\n}\n\n.introduction__links {\n  display: flex;\n  justify-content: center;\n}", ""]);
 
 // exports
 
@@ -4233,7 +4213,7 @@ exports = module.exports = __webpack_require__(0)(false);
 
 
 // module
-exports.push([module.i, ".portfolio__header-container {\n  background-color: #ffe400;\n}\n\n.portfolio__menu {\n  display: flex;\n  justify-content: center;\n  padding-bottom: 58px;\n}\n\n.portfolio__menu a {\n  text-decoration: none;\n  display: block;\n  text-align: center;\n  padding-top: 15px;\n  padding-bottom: 15px;\n  padding-left: 18px;\n  padding-right: 18px;\n  font-size: 13px;\n  color: #000000;\n  border: 1px solid #000000;\n  margin-right: 11px;\n}\n\n.portfolio__menu a:first-child {\n  background-color: #000000;\n  background-image: url(\"../Marvel/src/img/burger.svg\");\n  background-repeat: no-repeat;\n  width: 50px;\n  box-sizing: border-box;\n  background-position: 50%;\n}\n\n.portfolio__menu a:last-child {\n  margin-right: 0;\n}\n\n.portfolio__images-grid {\n  display: grid;\n  grid-template-columns: auto auto auto auto;\n}\n\n.portfolio__image {\n  width: 100%;\n}", ""]);
+exports.push([module.i, ".portfolio__header-container {\n  background-color: #ffe400;\n}\n\n.portfolio__menu {\n  display: flex;\n  justify-content: center;\n  padding-bottom: 58px;\n}\n\n.portfolio__menu a {\n  text-decoration: none;\n  display: block;\n  text-align: center;\n  padding-top: 15px;\n  padding-bottom: 15px;\n  padding-left: 18px;\n  padding-right: 18px;\n  font-size: 13px;\n  color: #000000;\n  border: 1px solid #000000;\n  margin-right: 11px;\n}\n\n.portfolio__menu a:first-child {\n  background-color: #000000;\n  background-image: url(\"../Marvel/src/img/burger.svg\");\n  background-repeat: no-repeat;\n  width: 50px;\n  box-sizing: border-box;\n  background-position: 50%;\n}\n\n.portfolio__menu a:first-child:hover {\n  background-color: #2e2e2e;\n}\n\n.portfolio__menu a:last-child {\n  margin-right: 0;\n}\n\n.portfolio__menu a:hover {\n  background-color: #ffd800;\n}\n\n.portfolio__images-grid {\n  display: grid;\n  grid-template-columns: repeat(4, auto);\n  grid-template-rows: repeat(2, 310px);\n}\n\n.portfolio__image {\n  width: 100%;\n  height: 100%;\n  cursor: pointer;\n  position: relative;\n}\n\n.portfolio__image-hover {\n  position: absolute;\n  bottom: 0;\n  width: 100%;\n  background-image: url(\"../Marvel/src/img/hover.png\");\n  background-repeat: no-repeat;\n  background-size: 100% 100%;\n  background-position: bottom;\n}\n\n.portfolio__image-container {\n  position: relative;\n  margin: 0;\n  padding: 0;\n  width: 100%;\n  height: 100%;\n}\n\n.portfolio__link {\n  position: absolute;\n  width: 1.75rem;\n  height: 1.75rem;\n  cursor: pointer;\n}\n\n.portfolio__link:hover {\n  transform: scale(1.1);\n}\n\n.portfolio__hover-text {\n  padding-top: 43px;\n  padding-bottom: 21px;\n  text-transform: uppercase;\n  font-weight: bold;\n  padding-left: 40px;\n  font-size: 14px;\n  letter-spacing: 1px;\n  margin: 0;\n}\n\n.portfolio__link--white {\n  top: 7px;\n  right: 15%;\n}\n\n.portfolio__link--zoom {\n  top: 7px;\n  right: 6%;\n}", ""]);
 
 // exports
 
@@ -4686,6 +4666,130 @@ exports = module.exports = __webpack_require__(0)(false);
 exports.push([module.i, ".main-footer__container {\n  padding-top: 60px;\n  padding-bottom: 120px;\n  background-color: #212121;\n  color: #ffffff;\n  display: flex;\n  padding-left: 24.5%;\n  padding-right: 24.5%;\n  justify-content: space-between;\n}\n\n.main-footer__icon {\n  color: #ffffff;\n  text-decoration: none;\n}\n\n.main-footer__phone-img {\n  margin-left: 30px;\n}\n\n.main-footer__globe-img {\n  margin-left: 45px;\n}\n\n.main-footer__icons {\n  width: 30%;\n  margin-top: 38px;\n  display: flex;\n  justify-content: space-between;\n}", ""]);
 
 // exports
+
+
+/***/ }),
+/* 47 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(48);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../node_modules/css-loader/index.js?url=false!../../node_modules/resolve-url-loader/index.js!../../node_modules/sass-loader/lib/loader.js!./modal.scss", function() {
+			var newContent = require("!!../../node_modules/css-loader/index.js?url=false!../../node_modules/resolve-url-loader/index.js!../../node_modules/sass-loader/lib/loader.js!./modal.scss");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 48 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(false);
+// imports
+
+
+// module
+exports.push([module.i, "/* The Modal (background) */\n\n.modal {\n  display: none;\n  /* Hidden by default */\n  position: fixed;\n  /* Stay in place */\n  z-index: 1;\n  /* Sit on top */\n  padding-top: 100px;\n  /* Location of the box */\n  left: 0;\n  top: 0;\n  width: 100%;\n  /* Full width */\n  height: 100%;\n  /* Full height */\n  overflow: auto;\n  /* Enable scroll if needed */\n  background-color: black;\n  /* Fallback color */\n  background-color: rgba(0, 0, 0, 0.9);\n  /* Black w/ opacity */\n}\n\n.modal__content {\n  margin: auto;\n  display: block;\n  width: 70%;\n  height: 80%;\n}\n\n/* The Close Button */\n\n.modal__close {\n  position: absolute;\n  top: 15px;\n  right: 35px;\n  color: #f1f1f1;\n  font-size: 40px;\n  font-weight: bold;\n  transition: 0.3s;\n}\n\n.modal__close:hover,\n.modal__close:focus {\n  color: #bbb;\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.modal__button {\n  color: #f1f1f1;\n  border: none;\n  font-weight: bold;\n  font-size: 50px;\n  outline: none;\n  background-color: transparent;\n  position: absolute;\n  top: 45%;\n}\n\n.modal__button:hover,\n.modal__button:focus {\n  color: #bbb;\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.modal__button--next {\n  right: 150px;\n}\n\n.modal__button--prev {\n  left: 150px;\n}\n\n/* 100% Image Width on Smaller Screens */\n\n@media only screen and (max-width: 700px) {\n  .modal__content {\n    width: 100%;\n  }\n}", ""]);
+
+// exports
+
+
+/***/ }),
+/* 49 */
+/***/ (function(module, exports) {
+
+console.log('Hello, unicorns!');
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var links = document.querySelectorAll('.portfolio__link--zoom');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+var container = document.querySelectorAll('.portfolio__image-container');
+for(let j=0; j<links.length; j++) {
+    links[j].addEventListener("click", function(){
+      var container = this.closest('.portfolio__image-container');
+      var pickedImage = container.querySelector('.portfolio__image');
+      modal.style.display = "block";
+      modalImg.dataset.Id = pickedImage.dataset.Id;
+      modalImg.src = pickedImage.src;
+      captionText.innerHTML = this.alt;
+    });
+}
+// Get the <span> element that closes the modal
+var span = document.querySelector('.modal__close');
+
+// When the user clicks on <span> (x), close the modal
+
+span.addEventListener('click', closeModalHandler);
+function closeModalHandler () {
+    modal.style.display = "none";
+}
+// Slideshow
+var prev = document.querySelector('.modal__button--prev');
+var next = document.querySelector('.modal__button--next');
+next.addEventListener('click', nextClickHandler);
+prev.addEventListener('click', previousClickHandler);
+var img = ['bike-n-min.jpg','bridge-n-min.jpg','coffee-n-min.jpg','dog-n-min.jpg','geisha-n-min.jpg','girl-n-min.jpg','japan-n-min.jpg','laptop-n-min.jpg'];
+var maxImagesNumber = 8;
+function nextClickHandler () {
+  console.log(modalImg.dataset.Id);
+ if(modalImg.dataset.Id < img.length -1) {
+ modalImg.dataset.Id++;
+} else {
+  modalImg.dataset.Id=0;
+}
+  modalImg.src = '../Marvel/src/img/'+img[modalImg.dataset.Id];
+}
+
+function previousClickHandler () {
+  if(modalImg.dataset.Id <= img.length -1 & modalImg.dataset.Id > 0) {
+    modalImg.dataset.Id--;
+   } else {
+   modalImg.dataset.Id = maxImagesNumber;
+   modalImg.dataset.Id--;
+   }
+   modalImg.src = '../Marvel/src/img/'+img[modalImg.dataset.Id];
+}
+
+
+/***/ }),
+/* 50 */
+/***/ (function(module, exports) {
+
+console.log('This is rainbows.js');
+const mapTrigger = document.querySelector('.map__header');
+const openMap = document.querySelector('.map__map');
+
+function toggleHandler () {
+  if (openMap.style.display === 'none') {
+    openMap.style.display = 'block'
+    window.initMap();
+  } else {
+    openMap.style.display = 'none'
+  }
+};
+mapTrigger.addEventListener('click', toggleHandler);
 
 
 /***/ })

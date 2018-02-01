@@ -18,6 +18,9 @@
     text-transform: uppercase;
     color:#ffffff;
     padding-right: 60px;
+    &:hover {
+      color: #ffe400;
+    }
   }
 }
 .main-nav__logo {

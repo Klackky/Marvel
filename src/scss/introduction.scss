@@ -45,10 +45,17 @@
   border: 1px solid #ffffff;
   color: #ffffff;
   margin-right: 30px;
+  &:hover {
+    background-color: #2b2a28;
+  }
 }
 .introduction__link--join {
   background-color: #ffe400;
   color: #000000;
+  z-index: 3;
+  &:hover {
+    background-color: #ffd800;
+  }
 }
 .introduction__links {
   display: flex;

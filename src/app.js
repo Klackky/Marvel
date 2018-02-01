@@ -1,5 +1,5 @@
-import './js/rainbows.js';
-import './js/unicorns.js';
+import './js/mapToggler.js';
+import './js/modal.js';
 import './js/map.js';
 import './js/scroll.js';
 import './js/fontawesome-all.js';
@@ -22,3 +22,4 @@ import './scss/news.scss';
 import './scss/contacts.scss';
 import './scss/map.scss';
 import './scss/footer.scss';
+import './scss/modal.scss';
