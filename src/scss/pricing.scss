@@ -26,6 +26,7 @@
     }
   }
   &--premium {
+    position: relative;
     .pricing__head {
       background-image: url("../Marvel/src/img/popular.jpg");
     }
@@ -106,4 +107,21 @@
   display: block;
   margin-top: 5px;
   font-size: 14px;
+  &:hover {
+    background-color: #e6e6e6;
+    font-size: 15px;
+  }
+}
+.pricing__popular {
+  position: absolute;
+  background-color: #e6e6e6;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 360px;
+  margin: 0;
+  text-align: center;
+  top: -49px;
+}
+.pricing__popular-text {
+  margin: 0;
 }

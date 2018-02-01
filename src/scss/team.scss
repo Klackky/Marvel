@@ -25,6 +25,13 @@
   margin-top: 12px;
   margin: 0 22px;
 }
+.team__member {
+  position: relative;
+  cursor: pointer;
+}
+.team__member:hover .team__member-hover {
+  display: block;
+}
 .team__title {
   font-size: 11px;
   text-transform: uppercase;
@@ -35,4 +42,53 @@
 }
 .team__container {
   padding-bottom: 290px;
+}
+.team__member-hover {
+  background-color: #ffe400;
+  position: absolute;
+  top: 0;
+  display: none;
+}
+.team__hover-name {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+  padding-top: 94px;
+  padding-bottom: 20px;
+}
+.team__hover-title {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 0;
+  padding-bottom: 77px;
+}
+.team__hover-container {
+  text-align: center;
+}
+.team__hover-text {
+  font-family: 'Muli', Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 80px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.team__hover-social {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 24px;
+  margin-right: 24px;
+  padding-left: 35px;
+  padding-bottom: 49px;
+  padding-top: 50px;
+  border-top: 1px dashed #6b6000;
+  a{
+    text-decoration: none;
+    color: #6b6000;
+    margin-right: 25px;
+    &:hover {
+      color: #000000;
+    }
+  }
 }
