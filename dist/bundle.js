@@ -523,9 +523,9 @@ function updateLink (link, options, obj) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__js_mapToggler_js__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__js_mapToggler_js__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__js_mapToggler_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__js_mapToggler_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__js_modal_js__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__js_modal_js__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__js_modal_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__js_modal_js__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__js_map_js__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__js_map_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__js_map_js__);
@@ -601,8 +601,84 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 3 */,
-/* 4 */,
+/* 3 */
+/***/ (function(module, exports) {
+
+console.log('This is rainbows.js');
+const mapTrigger = document.querySelector('.map__header');
+const openMap = document.querySelector('.map__map');
+function toggleHandler () {
+  if (openMap.style.display === 'none') {
+    openMap.style.display = 'block'
+    window.initMap();
+  } else {
+    openMap.style.display = 'none'
+  }
+};
+mapTrigger.addEventListener('click', toggleHandler);
+
+
+/***/ }),
+/* 4 */
+/***/ (function(module, exports) {
+
+console.log('Hello, unicorns!');
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var links = document.querySelectorAll('.portfolio__link--zoom');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+var container = document.querySelectorAll('.portfolio__image-container');
+for(let j=0; j<links.length; j++) {
+    links[j].addEventListener("click", function(){
+      var container = this.closest('.portfolio__image-container');
+      var pickedImage = container.querySelector('.portfolio__image');
+      modal.style.display = "block";
+      modalImg.dataset.Id = pickedImage.dataset.Id;
+      modalImg.src = pickedImage.src;
+      captionText.innerHTML = this.alt;
+    });
+}
+// Get the <span> element that closes the modal
+var span = document.querySelector('.modal__close');
+
+// When the user clicks on <span> (x), close the modal
+
+span.addEventListener('click', closeModalHandler);
+function closeModalHandler () {
+    modal.style.display = "none";
+}
+// Slideshow
+var prev = document.querySelector('.modal__button--prev');
+var next = document.querySelector('.modal__button--next');
+next.addEventListener('click', nextClickHandler);
+prev.addEventListener('click', previousClickHandler);
+var img = ['bike-n-min.jpg','bridge-n-min.jpg','coffee-n-min.jpg','dog-n-min.jpg','geisha-n-min.jpg','girl-n-min.jpg','japan-n-min.jpg','laptop-n-min.jpg'];
+var maxImagesNumber = 8;
+function nextClickHandler () {
+  console.log(modalImg.dataset.Id);
+ if(modalImg.dataset.Id < img.length -1) {
+ modalImg.dataset.Id++;
+} else {
+  modalImg.dataset.Id=0;
+}
+  modalImg.src = '../Marvel/src/img/'+img[modalImg.dataset.Id];
+}
+
+function previousClickHandler () {
+  if(modalImg.dataset.Id <= img.length -1 & modalImg.dataset.Id > 0) {
+    modalImg.dataset.Id--;
+   } else {
+   modalImg.dataset.Id = maxImagesNumber;
+   modalImg.dataset.Id--;
+   }
+   modalImg.src = '../Marvel/src/img/'+img[modalImg.dataset.Id];
+}
+
+
+/***/ }),
 /* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -622,7 +698,6 @@ function initMap() {
        map: map
      });
    }
-   
 window.initMap = initMap;
 
 
@@ -4618,7 +4693,7 @@ exports = module.exports = __webpack_require__(0)(false);
 
 
 // module
-exports.push([module.i, "#map {\n  width: 100%;\n  height: 400px;\n  background-color: grey;\n  display: none;\n}\n\n.map__header {\n  background-color: #ffe400;\n  margin: 0;\n  text-align: center;\n  padding-top: 70px;\n  padding-bottom: 70px;\n  position: relative;\n  cursor: pointer;\n}\n\n.map__arrow {\n  position: absolute;\n  top: 63px;\n  right: 42%;\n  cursor: pointer;\n}", ""]);
+exports.push([module.i, ".map__map {\n  width: 100%;\n  height: 400px;\n  background-color: grey;\n  display: none;\n}\n\n.map__header {\n  background-color: #ffe400;\n  margin: 0;\n  text-align: center;\n  padding-top: 70px;\n  padding-bottom: 70px;\n  position: relative;\n  cursor: pointer;\n}\n\n.map__arrow {\n  position: absolute;\n  top: 63px;\n  right: 42%;\n  cursor: pointer;\n}", ""]);
 
 // exports
 
@@ -4711,85 +4786,6 @@ exports = module.exports = __webpack_require__(0)(false);
 exports.push([module.i, "/* The Modal (background) */\n\n.modal {\n  display: none;\n  /* Hidden by default */\n  position: fixed;\n  /* Stay in place */\n  z-index: 1;\n  /* Sit on top */\n  padding-top: 100px;\n  /* Location of the box */\n  left: 0;\n  top: 0;\n  width: 100%;\n  /* Full width */\n  height: 100%;\n  /* Full height */\n  overflow: auto;\n  /* Enable scroll if needed */\n  background-color: black;\n  /* Fallback color */\n  background-color: rgba(0, 0, 0, 0.9);\n  /* Black w/ opacity */\n}\n\n.modal__content {\n  margin: auto;\n  display: block;\n  width: 70%;\n  height: 80%;\n}\n\n/* The Close Button */\n\n.modal__close {\n  position: absolute;\n  top: 15px;\n  right: 35px;\n  color: #f1f1f1;\n  font-size: 40px;\n  font-weight: bold;\n  transition: 0.3s;\n}\n\n.modal__close:hover,\n.modal__close:focus {\n  color: #bbb;\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.modal__button {\n  color: #f1f1f1;\n  border: none;\n  font-weight: bold;\n  font-size: 50px;\n  outline: none;\n  background-color: transparent;\n  position: absolute;\n  top: 45%;\n}\n\n.modal__button:hover,\n.modal__button:focus {\n  color: #bbb;\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.modal__button--next {\n  right: 150px;\n}\n\n.modal__button--prev {\n  left: 150px;\n}\n\n/* 100% Image Width on Smaller Screens */\n\n@media only screen and (max-width: 700px) {\n  .modal__content {\n    width: 100%;\n  }\n}", ""]);
 
 // exports
-
-
-/***/ }),
-/* 49 */
-/***/ (function(module, exports) {
-
-console.log('Hello, unicorns!');
-// Get the modal
-var modal = document.getElementById('myModal');
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var links = document.querySelectorAll('.portfolio__link--zoom');
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-var container = document.querySelectorAll('.portfolio__image-container');
-for(let j=0; j<links.length; j++) {
-    links[j].addEventListener("click", function(){
-      var container = this.closest('.portfolio__image-container');
-      var pickedImage = container.querySelector('.portfolio__image');
-      modal.style.display = "block";
-      modalImg.dataset.Id = pickedImage.dataset.Id;
-      modalImg.src = pickedImage.src;
-      captionText.innerHTML = this.alt;
-    });
-}
-// Get the <span> element that closes the modal
-var span = document.querySelector('.modal__close');
-
-// When the user clicks on <span> (x), close the modal
-
-span.addEventListener('click', closeModalHandler);
-function closeModalHandler () {
-    modal.style.display = "none";
-}
-// Slideshow
-var prev = document.querySelector('.modal__button--prev');
-var next = document.querySelector('.modal__button--next');
-next.addEventListener('click', nextClickHandler);
-prev.addEventListener('click', previousClickHandler);
-var img = ['bike-n-min.jpg','bridge-n-min.jpg','coffee-n-min.jpg','dog-n-min.jpg','geisha-n-min.jpg','girl-n-min.jpg','japan-n-min.jpg','laptop-n-min.jpg'];
-var maxImagesNumber = 8;
-function nextClickHandler () {
-  console.log(modalImg.dataset.Id);
- if(modalImg.dataset.Id < img.length -1) {
- modalImg.dataset.Id++;
-} else {
-  modalImg.dataset.Id=0;
-}
-  modalImg.src = '../Marvel/src/img/'+img[modalImg.dataset.Id];
-}
-
-function previousClickHandler () {
-  if(modalImg.dataset.Id <= img.length -1 & modalImg.dataset.Id > 0) {
-    modalImg.dataset.Id--;
-   } else {
-   modalImg.dataset.Id = maxImagesNumber;
-   modalImg.dataset.Id--;
-   }
-   modalImg.src = '../Marvel/src/img/'+img[modalImg.dataset.Id];
-}
-
-
-/***/ }),
-/* 50 */
-/***/ (function(module, exports) {
-
-console.log('This is rainbows.js');
-const mapTrigger = document.querySelector('.map__header');
-const openMap = document.querySelector('.map__map');
-
-function toggleHandler () {
-  if (openMap.style.display === 'none') {
-    openMap.style.display = 'block'
-    window.initMap();
-  } else {
-    openMap.style.display = 'none'
-  }
-};
-mapTrigger.addEventListener('click', toggleHandler);
 
 
 /***/ })
