@@ -12,14 +12,17 @@ module.exports = {
   rules: [
     {
          test   : /\.css$/,
-         loaders: ['style-loader', 'css-loader?url=false', 'resolve-url-loader']
+         loaders: ['style-loader', 'css-loader?url=false', 'resolve-url-loader'],
+         exclude: /node_modules/
        }, {
          test   : /\.scss$/,
-         loaders: ['style-loader', 'css-loader?url=false', 'resolve-url-loader', 'sass-loader']
+         loaders: ['style-loader', 'css-loader?url=false', 'resolve-url-loader', 'sass-loader'],
+         exclude: /node_modules/
        },
        {
         test: /\.(png|jpeg|ttf|...)$/,
         loader: 'url-loader',
+        exclude: /node_modules/,
         query: {
           limit:10000,
           name: '[name].[ext]',
