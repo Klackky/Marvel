@@ -11,7 +11,6 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'bundle.js',
-        publicPath: './dist/'
     },
     module: {
         rules: [{
@@ -20,8 +19,11 @@ module.exports = {
                 exclude: /node_modules/
             }, {
                 test: /\.scss$/,
-                loaders: ['style-loader', 'css-loader', 'resolve-url-loader', 'sass-loader?sourceMap']
-            },
+                use: ExtractTextPlugin.extract({
+                fallback: 'style-loader',
+                use: ['css-loader', 'resolve-url-loader','sass-loader?sourceMap']
+               })
+             },
             {
                 test: /\.(gif|png|jpe?g|svg)$/i,
                 use: [{
