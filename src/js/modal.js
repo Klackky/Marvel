@@ -33,9 +33,8 @@ function closeModalHandler () {
 
 next.addEventListener('click', nextClickHandler);
 prev.addEventListener('click', previousClickHandler);
-
+let maxImagesNumber = 8;
 function nextClickHandler () {
-  console.log(modalImg.dataset.Id);
  if(modalImg.dataset.Id < img.length -1) {
  modalImg.dataset.Id++;
 } else {
