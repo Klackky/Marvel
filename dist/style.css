@@ -59,10 +59,10 @@ body {
 .page-header__container {
   padding-left: 20%;
   padding-right: 20%;
-  background-image: url(images/background85a29af3db00019165e6c304b377ec0c.jpg);
+  background-image: url(images/backgrounddf5cf6995c2704f6ad15fd236df2e248.jpg);
   background-repeat: no-repeat;
-  background-position: 115% 30%;
-  background-size: 58%;
+  background-position: center right;
+  background-size: contain;
 }
 
 .page-header__text {
@@ -245,8 +245,8 @@ body {
 }
 
 .about__container {
-  padding-left: 390px;
-  padding-right: 390px;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .about__numbers-header {
