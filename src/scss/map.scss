@@ -12,6 +12,9 @@
   padding-bottom: 70px;
   position: relative;
   cursor: pointer;
+  &:hover {
+    background-color: #ffd800;
+  }
 }
 .map__arrow {
   position: absolute;

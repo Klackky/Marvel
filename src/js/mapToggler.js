@@ -1,3 +1,4 @@
+'use strict';
 console.log('This is rainbows.js');
 const mapTrigger = document.querySelector('.map__header');
 const openMap = document.querySelector('.map__map');

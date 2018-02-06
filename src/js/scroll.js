@@ -1,3 +1,4 @@
+'use strict';
 // собираем все якоря; устанавливаем время анимации и количество кадров
 const anchors = [].slice.call(document.querySelectorAll('a[href*="#"]')),
       animationTime = 1000,

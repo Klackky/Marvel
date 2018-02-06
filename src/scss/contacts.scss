@@ -6,6 +6,10 @@
   box-sizing: border-box;
   width: 100%;
   font-family: inherit;
+  outline: none;
+  &:focus {
+    outline: 2px solid #ffe400;
+  }
 }
 .contacts__container {
   background-image: url("../Marvel/src/img/map.jpg");
@@ -38,6 +42,9 @@
   border: 1px solid #e6e6e6;
   height: 510px;
   resize: none;
+  &:focus {
+    outline: 2px solid #ffe400;
+  }
 }
 .contacts__button {
   width: 145px;
@@ -46,8 +53,13 @@
   text-transform: uppercase;
   font-size: 17px;
   background-color: #ffe400;
-  padding-top: 22px;
-  padding-bottom: 22px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: center;
   margin-top: 25px;
+  letter-spacing: 1.3px;
+  cursor: pointer;
+  &:hover {
+    background-color: #ffd800;
+  }
 }

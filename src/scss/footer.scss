@@ -11,6 +11,9 @@
 .main-footer__icon{
   color: #ffffff;
   text-decoration: none;
+  &:hover {
+    color: #ffe400;
+  }
 }
 .main-footer__phone-img {
   margin-left: 30px;
